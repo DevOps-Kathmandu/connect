@@ -67,13 +67,13 @@ languages:
         params:
             themes:
                 event:
-                    slogan: DevOps Connect 2025
+                    slogan: DevOps Kathmandu Connect 2025
                     description: |
                         We are thrilled to invite you to “DevOps KTM Connect”,
                         a premier gathering of DevOps professionals, cloud innovators,
                         SRE practitioners, and tech enthusiasts! 🚀 🎉
                     directions: |
-                        We are actively looking for the location, location with
+                        We are actively looking for the location, if you know any awesome place for hosting event of 200-300 headcount, please reach out at [hello.devopsktm@gmail.com](mailto:hello.devopsktm@gmail.com)
                     # 👇 This field provides an introduction or overview about the event or organization.
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
@@ -85,7 +85,7 @@ params:
     themes:
         event:
             # 👇 Set the name of your event.
-            title: DevOps KTM Connect
+            title: DevOps Kathmandu Connect
             # 👇 Fetch the ID of your event's API endpoint from
             # 👇 https://sessionize.com/app/organizer/schedule/api/0
             # 👇 and enter it here.
