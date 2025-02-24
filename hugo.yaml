@@ -1,0 +1,150 @@
+theme: event
+
+defaultContentLanguage: en
+languages:
+    _merge: deep
+    en:
+        languageName: English
+        disabled: false
+        menus:
+            main:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                # - identifier: sessions
+                #   pageRef: /sessions
+                #   weight: 20
+                # - identifier: speakers
+                #   pageRef: /speakers
+                #   weight: 30
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                - identifier: sponsors
+                  pageRef: /sponsors
+                  weight: 50
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+            footer:
+                - identifier: imprint
+                  pageRef: /imprint
+                  weight: 10
+                - identifier: privacy
+                  pageRef: /privacy-policy
+                  weight: 20
+            secondary:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                  params:
+                      description: |
+                          Learn more about our mission, values, and the people behind our organization.
+                          The "About Us" page provides insights into who we are, what we do,
+                          and why we’re passionate about our work.
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
+                  params:
+                      description: |
+                          Meet our distinguished speakers who will be sharing their expertise.
+                          Learn more about their backgrounds and what they will discuss.
+                - identifier: location
+                  pageRef: /location
+                  weight: 40
+                  params:
+                      description: |
+                          Find out where the event will take place.
+                          This section provides details on the venue, directions, and nearby accommodations.
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 60
+                  params:
+                      description: |
+                          Read about the code of conduct for our event.
+                          This section outlines the expectations for participant behavior and event policies.
+
+        params:
+            themes:
+                event:
+                    slogan: DevOps Connect 2025
+                    description: |
+                        We are thrilled to invite you to “DevOps KTM Connect”,
+                        a premier gathering of DevOps professionals, cloud innovators,
+                        SRE practitioners, and tech enthusiasts! 🚀 🎉
+                    directions: |
+                        We are actively looking for the location, location with
+                    # 👇 This field provides an introduction or overview about the event or organization.
+                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
+                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                    aboutUs: |
+                        More information about the event will be added soon. Stay tuned! 🎉
+
+sectionPagesMenu: main
+params:
+    themes:
+        event:
+            # 👇 Set the name of your event.
+            title: DevOps KTM Connect
+            # 👇 Fetch the ID of your event's API endpoint from
+            # 👇 https://sessionize.com/app/organizer/schedule/api/0
+            # 👇 and enter it here.
+            sessionizeId: djztqt38
+
+            shortTitle:
+            startDate: 2025-04-19
+            endDate: 2025-04-19
+            location: Kathmandu, Nepal
+            # address:
+            #     - Building
+            #     - Street
+            #     - Kathmandu
+            #     - Nepal
+            map:
+                embeddableMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.776195273902!2d85.31855417554004!3d27.693311276190702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b032e93fc1%3A0x4a61dc499d928027!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2sus!4v1740373150828!5m2!1sen!2sus
+                viewLargerMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.776195273902!2d85.31855417554004!3d27.693311276190702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b032e93fc1%3A0x4a61dc499d928027!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2sus!4v1740373150828!5m2!1sen!2sus
+            callToAction:
+              other:
+                 url: https://www.meetup.com/devops-kathmandu/events/
+                 enableBanner: true
+            socialLinks:
+                discordUrl:  https://discord.gg/46b2CJmY6c
+                xUrl: https://x.com/devopskathmandu
+                facebookUrl:
+                linkedinUrl: https://www.linkedin.com/company/devops-kathmandu/
+            images:
+                logo: images/meetup.1.png
+                titleBackground: ./images/meetup.1.png
+                location: images/meetup.1.png
+            sponsors:
+                - logo: images/venue.svg
+                  url: https://venue.sponser.com/
+                  name: 'Venue'
+                - logo: images/food.svg
+                  url: https://food.sponser.com/
+                  name: 'Food'
+
+            partners:
+                - logo: images/partners.svg
+                  url: https://www.media-lesson.com/
+                  name: 'Medialesson GmbH'
+            organizers:
+                - '00000000-0000-0000-0000-000000000000'
+                - '00000000-0000-0000-0000-000000000001'
+                - '00000000-0000-0000-0000-000000000004'
+                - '00000000-0000-0000-0000-000000000002'
+            featuredSessions:
+                - '865975'
+                - '871504'
+                - '858826'
+            colors:
+                primaryLighter: '#5CB1E8'
+                primary: '#0d81be'
+                primaryDarker: '#143e8b'
+                track: '#15B8CA'
+                secondary: '#f7f8fa'
+                secondaryDarker: '#637381'
+                track: '#015a57'
+                shadow: '#a6afc366'
+            # 👇 Name of the category in Sessionize that is used to group sessions.
+            trackCategoryTitle: Track
