@@ -17,15 +17,15 @@ languages:
                 # - identifier: speakers
                 #   pageRef: /speakers
                 #   weight: 30
-                - identifier: location
-                  pageRef: /location
-                  weight: 40
-                - identifier: sponsors
-                  pageRef: /sponsors
-                  weight: 50
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
+                # - identifier: location
+                #   pageRef: /location
+                #   weight: 40
+                # - identifier: sponsors
+                #   pageRef: /sponsors
+                #   weight: 50
+                # - identifier: code_of_conduct
+                #   pageRef: /code-of-conduct
+                #   weight: 60
             footer:
                 - identifier: imprint
                   pageRef: /imprint
@@ -39,46 +39,59 @@ languages:
                   weight: 10
                   params:
                       description: |
-                          Learn more about our mission, values, and the people behind our organization.
-                          The "About Us" page provides insights into who we are, what we do,
-                          and why we’re passionate about our work.
+                          Learn more about the event and ways to contribute.
                 - identifier: speakers
                   pageRef: /speakers
                   weight: 30
                   params:
                       description: |
-                          Meet our distinguished speakers who will be sharing their expertise.
+                          Meet our awesome speakers who will be sharing their expertise.
                           Learn more about their backgrounds and what they will discuss.
                 - identifier: location
                   pageRef: /location
                   weight: 40
                   params:
                       description: |
-                          Find out where the event will take place.
-                          This section provides details on the venue, directions, and nearby accommodations.
+                          Find out where the event will take place
+                          ...details on the venue, directions, and nearby accommodations.
                 - identifier: code_of_conduct
                   pageRef: /code-of-conduct
                   weight: 60
                   params:
                       description: |
                           Read about the code of conduct for our event.
-                          This section outlines the expectations for participant behavior and event policies.
+                          ...the expectations for participant behavior and event policies.
 
         params:
             themes:
                 event:
                     slogan: DevOps Kathmandu Connect 2025
                     description: |
-                        We are thrilled to invite you to “DevOps KTM Connect”,
-                        a premier gathering of DevOps professionals, cloud innovators,
+                        A premier gathering of DevOps professionals, cloud innovators,
                         SRE practitioners, and tech enthusiasts! 🚀 🎉
+                        Discover practical insights from DevOps, Cloud, and SRE experts while celebrating local successes and merging global best practices with local expertise.\
+                        \
+                        &nbsp;
+                        \
+                        **Please check out**:  
+                           🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
+                        &nbsp;
+                        \
+                           🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉  
+                        &nbsp;
+                        \
+                           📢 [Call For Venue](../call-for-venue) if you want to help host the event 🤝  
+                        &nbsp;
+                        \
+                           💪 [Volunteering](../volunters) if you want to collaborate and contribute  
+
                     directions: |
                         We are actively looking for the location, if you know any awesome place for hosting event of 200-300 headcount, please reach out at [hello.devopsktm@gmail.com](mailto:hello.devopsktm@gmail.com)
                     # 👇 This field provides an introduction or overview about the event or organization.
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
+                    # aboutUs: |
+                    #     More information about the event will be added soon. Stay tuned! 🎉
 
 sectionPagesMenu: main
 params:
@@ -113,9 +126,9 @@ params:
                 facebookUrl:
                 linkedinUrl: https://www.linkedin.com/company/devops-kathmandu/
             images:
-                logo: images/meetup.1.png
-                titleBackground: ./images/meetup.1.png
-                location: images/meetup.1.png
+                logo: images/head.png
+                titleBackground: ./images/outside.png
+                location: images/v.png
             sponsors:
                 - logo: images/venue.svg
                   url: https://venue.sponser.com/

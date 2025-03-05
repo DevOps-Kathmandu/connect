@@ -3,7 +3,6 @@ title: About
 omit_header_text: true
 description: about event
 type: page
-menu: main
 ---
 
 **DevOps Kathmandu Connect 2025** is a one-day event organized by [DevOps Kathmandu](https://www.meetup.com/devops-kathmandu/) and supporting communities, targeted for IT enthusiasts, professionals, students, and tech leaders.  

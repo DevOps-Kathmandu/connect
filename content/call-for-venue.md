@@ -22,6 +22,6 @@ We are seeking a venue partnership to host **DevOps Kathmandu Connect 2025** at 
 
 #### Contact Information
 
-For venue partnership discussions, please reach out to 
+For venue partnership discussions, please reach out to [contact ](../contact) us page.  
 
 We look forward to collaborating with you for DevOps Kathmandu Connect 2025! 🙇‍♂️
