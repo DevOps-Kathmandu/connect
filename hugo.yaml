@@ -8,8 +8,8 @@ languages:
         disabled: false
         menus:
             main:
-                - identifier: about
-                  pageRef: /about
+                - identifier: about-event
+                  pageRef: /about-event
                   weight: 10
                 # - identifier: sessions
                 #   pageRef: /sessions
@@ -23,9 +23,9 @@ languages:
                 # - identifier: sponsors
                 #   pageRef: /sponsors
                 #   weight: 50
-                # - identifier: code_of_conduct
-                #   pageRef: /code-of-conduct
-                #   weight: 60
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 100
             footer:
                 - identifier: imprint
                   pageRef: /imprint
