@@ -6,7 +6,7 @@ type: page
 menu: main
 ---
 
-Your feedback, comments, questions are valuable to us.
+Your support, feedback, comments, questions are valuable to us.
 Thank you !! 🙇‍♂️
 {{< contact-form action="https://formspree.io/f/xgvoggwk" >}}
 

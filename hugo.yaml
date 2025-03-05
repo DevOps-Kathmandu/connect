@@ -130,11 +130,14 @@ params:
                 titleBackground: ./images/outside.png
                 location: images/v.png
             sponsors:
+                - logo: images/sponsor-you.svg
+                  url: ./contact
+                  name: 'You'
                 - logo: images/venue.svg
-                  url: https://venue.sponser.com/
+                  url: https://venue.sponsor.com/
                   name: 'Venue'
                 - logo: images/food.svg
-                  url: https://food.sponser.com/
+                  url: https://food.sponsor.com/
                   name: 'Food'
 
             partners:
