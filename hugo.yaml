@@ -131,8 +131,8 @@ params:
                 location: images/v.png
             sponsors:
                 - logo: images/sponsor-you.svg
-                  url: ./contact
-                  name: 'You'
+                  url: ../contact
+                  name: 'Could be Your Team'
                 - logo: images/venue.svg
                   url: https://venue.sponsor.com/
                   name: 'Venue'
