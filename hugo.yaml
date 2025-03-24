@@ -1,4 +1,10 @@
 theme: event
+baseUrl: https://connect.devopskathmandu.com/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 defaultContentLanguage: en
 languages:
@@ -73,20 +79,20 @@ languages:
                         \
                         &nbsp;
                         \
-                        **Please check out**:  
-                           🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
+                        **Please check out**:
+                           🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)
                         &nbsp;
                         \
-                           🙌🏼 [Sponsors](./sponsors) to help us make this event grand 🎉  
+                           🙌🏼 [Sponsors](./sponsors) to help us make this event grand 🎉
                         &nbsp;
                         \
-                           📢 [Call For Venue](./call-for-venue) if you want to help host the event 🤝  
+                           📢 [Call For Venue](./call-for-venue) if you want to help host the event 🤝
                         &nbsp;
                         \
-                           💪 [Volunteering](./volunters) if you want to collaborate and contribute  
+                           💪 [Volunteering](./volunters) if you want to collaborate and contribute
 
                     directions: |
-                        We are actively looking for the location, if you know any awesome place for hosting event of 200-300 headcount, please reach out at [hello.devopsktm@gmail.com](mailto:hello.devopsktm@gmail.com)
+                       Islington College is hosting our event on Kumari Block.
                     # 👇 This field provides an introduction or overview about the event or organization.
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
@@ -108,14 +114,15 @@ params:
             startDate: 2025-04-19
             endDate: 2025-04-19
             location: Kathmandu, Nepal
-            # address:
-            #     - Building
-            #     - Street
-            #     - Kathmandu
-            #     - Nepal
+            address:
+                 - Kumari Block
+                 - Islington College
+                 - धोबीधारा मार्ग, Kathmandu 44600
+                 - Nepal
             map:
-                embeddableMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.776195273902!2d85.31855417554004!3d27.693311276190702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b032e93fc1%3A0x4a61dc499d928027!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2sus!4v1740373150828!5m2!1sen!2sus
-                viewLargerMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.776195273902!2d85.31855417554004!3d27.693311276190702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b032e93fc1%3A0x4a61dc499d928027!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2sus!4v1740373150828!5m2!1sen!2sus
+                embeddableMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5242.33179985782!2d85.3230088042467!3d27.708425546304806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19088cf744ff%3A0x5d442b976acd7fcc!2sKumari%20Block%20-%20Islington%20College!5e0!3m2!1sen!2sus!4v1742677603671!5m2!1sen!2sus
+                viewLargerMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5242.33179985782!2d85.3230088042467!3d27.708425546304806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19088cf744ff%3A0x5d442b976acd7fcc!2sKumari%20Block%20-%20Islington%20College!5e0!3m2!1sen!2sus!4v1742677603671!5m2!1sen!2sus
+
             callToAction:
               other:
                  url: https://www.meetup.com/devops-kathmandu/events/
@@ -130,6 +137,9 @@ params:
                 titleBackground: ./images/outside.png
                 location: images/v.png
             sponsors:
+                - logo: images/learn-k8s.png
+                  url: https://learnk8s.io/
+                  name: 'LearnK8s'
                 - logo: images/sponsor-you.svg
                   url: ../contact
                   name: 'Could be Your Team'
