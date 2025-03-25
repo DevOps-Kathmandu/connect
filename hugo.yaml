@@ -11,7 +11,7 @@ languages:
     _merge: deep
     en:
         languageName: English
-        disabled: false
+        disabled: true
         menus:
             main:
                 - identifier: about-event
