@@ -16,8 +16,6 @@ The event will focus on sharing practical insights from DevOps professionals, Cl
 
    🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉   
 
- 📢 [Call For Venue](../call-for-venue) if you want to help host the event 🤝  
-
  💪 [Volunteering](../volunters) if you want to collaborate and contribute  
 
 ---
