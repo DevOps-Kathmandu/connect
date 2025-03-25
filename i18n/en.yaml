@@ -3,9 +3,9 @@ countdown.hours: hrs
 countdown.minutes: mins
 countdown.seconds: secs
 cta_banner.message: 📅 CFP Extended Till March 30 !
-cta_button.get_ticket: Register now!
+# cta_button.get_ticket: Register now!
 cta_section.heading: Found event exciting?
-cta_section.subheading: Register today!
+# cta_section.subheading: Register today!
 cta_section.message: |
     Don't miss the chance to meet, share/learn with experts and make valuable
     contacts!
