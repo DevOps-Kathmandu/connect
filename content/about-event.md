@@ -12,9 +12,9 @@ The event will focus on sharing practical insights from DevOps professionals, Cl
 
 **Please check out**:
 
-  🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
+ 🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
 
-   🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉   
+ 🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉   
 
  💪 [Volunteering](../volunters) if you want to collaborate and contribute  
 
