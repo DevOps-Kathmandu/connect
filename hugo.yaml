@@ -131,7 +131,7 @@ params:
     themes:
         event:
             # 👇 Set the name of your event.
-            title: DevOps Kathmandu Connect 2025
+            # title: DevOps Kathmandu Connect 2025
             # 👇 Fetch the ID of your event's API endpoint from
             # 👇 https://sessionize.com/app/organizer/schedule/api/0
             # 👇 and enter it here.
