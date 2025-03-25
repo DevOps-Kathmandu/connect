@@ -36,7 +36,7 @@ There are other ways to help too:
 
    - **Linkedin**: https://www.linkedin.com/feed/update/urn:li:activity:7299441260598099970
 
-   - **x/twitter**:
-      {{< x user="DevOpsKathmandu" id="1894943451646697957" >}}
+   - **twitter**:
+      {{< twitter user="DevOpsKathmandu" id="1894943451646697957" >}}
 
    - **Github**: https://github.com/devops-Kathmandu/connect to help us improve this page
