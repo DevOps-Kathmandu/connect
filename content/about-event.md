@@ -1,5 +1,5 @@
 ---
-title: AboutEvent
+title: About Event
 omit_header_text: true
 description: about event
 type: page
