@@ -190,8 +190,8 @@ params:
                 - '883226'
                 - '884705'
             colors:
-                primaryLighter: '#5CB1E8'
-                primary: '#0d81be'
+                primaryLighter: '##7182C7'
+                primary: '##7182C7'
                 primaryDarker: '#143e8b'
                 track: '#15B8CA'
                 secondary: '#f7f8fa'
