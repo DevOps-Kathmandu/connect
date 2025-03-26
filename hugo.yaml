@@ -165,17 +165,20 @@ params:
                 - logo: images/sponsor-you.svg
                   url: ../contact
                   name: 'Could be Your Team'
-                - logo: images/venue.svg
-                  url: https://venue.sponsor.com/
-                  name: 'Venue'
+                - logo: images/islington.png
+                  url: https://islington.edu.np/
+                  name: 'Islington College'
                 - logo: images/food.svg
                   url: https://food.sponsor.com/
                   name: 'Food'
 
             partners:
-                - logo: images/partners.svg
-                  url: https://www.media-lesson.com/
-                  name: 'Medialesson GmbH'
+                - logo: images/partner_a.svg
+                  url: https://connect.devopskathmandu.com/sponsors
+                  name: 'PartnerA'
+                - logo: images/partner_b.svg
+                  url: https://connect.devopskathmandu.com/sponsors
+                  name: 'PartnerB'
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
                 - '00000000-0000-0000-0000-000000000001'

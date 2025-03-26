@@ -2,13 +2,17 @@
     margin-bottom: 1rem !important;
 }
 
+.heading--highlighted {
+    font-size: 2.125rem !important;
+}
+
 .event-highlights-section__description {
     display: block !important;
     flex-basis: 10.375rem !important;
     flex-grow: 1;
 }
 
-.section--short{
+#pageHeaderContent{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
@@ -23,4 +27,8 @@
 
 .button--outlined {
     padding: 0.8rem 1.75rem !important;
+
+.sponsor-card {
+    border: none !important;
+
 }

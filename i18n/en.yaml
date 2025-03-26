@@ -48,8 +48,10 @@ featured_speakers_section.action: All speakers at a glance
 featured_sessions_section.heading: Featured Sessions
 featured_sessions_section.read_more: read more
 featured_sessions_section.action: All Sessions
-sponsors_section.heading: ""
-sponsors_section.subheading: Our Sponsors
+sponsors_section.heading: "Supporters"
+sponsors_section.subheading: ""
+partners_section.heading: "Partners"
+partners_section.subheading: ""
 event_highlights_section.number_of_speakers:
     one: '{{ . }} Speaker'
     other: '{{ . }} Speakers'
