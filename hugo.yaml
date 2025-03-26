@@ -71,7 +71,7 @@ languages:
         params:
             themes:
                 event:
-                    slogan: DevOps Kathmandu Connect 2025
+                    slogan: ""
                     description: |
                         A premier gathering of DevOps professionals, cloud innovators,
                         SRE practitioners, and tech enthusiasts! 🚀 🎉
