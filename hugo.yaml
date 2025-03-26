@@ -93,8 +93,6 @@ languages:
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
                     aboutUs: |
-                        # About DevOps Kathmandu Connect 2025
-
                         Welcome to **DevOps Kathmandu Connect 2025**, the premier gathering for DevOps professionals, cloud innovators, SRE practitioners, and tech enthusiasts in Nepal.  
                         **Date:** April 19, 2025  
                         **Location:** Kathmandu  
