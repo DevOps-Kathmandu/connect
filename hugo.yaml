@@ -71,6 +71,7 @@ languages:
         params:
             themes:
                 event:
+                    favicon: favicon.ico
                     slogan: ""
                     description: |
                         A premier gathering of DevOps professionals, cloud innovators,
@@ -124,6 +125,7 @@ languages:
 sectionPagesMenu: main
 params:
     themes:
+        favicon: favicon.ico
         event:
             # 👇 Set the name of your event.
             title: DevOps Kathmandu Connect 2025
