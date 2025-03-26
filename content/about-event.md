@@ -1,5 +1,5 @@
 ---
-title: AboutEvent
+title: About Event
 omit_header_text: true
 description: about event
 type: page
@@ -12,11 +12,9 @@ The event will focus on sharing practical insights from DevOps professionals, Cl
 
 **Please check out**:
 
-  🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
+ 🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)  
 
-   🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉   
-
- 📢 [Call For Venue](../call-for-venue) if you want to help host the event 🤝  
+ 🙌🏼 [Sponsors](../sponsors) to help us make this event grand 🎉   
 
  💪 [Volunteering](../volunters) if you want to collaborate and contribute  
 
@@ -38,7 +36,7 @@ There are other ways to help too:
 
    - **Linkedin**: https://www.linkedin.com/feed/update/urn:li:activity:7299441260598099970
 
-   - **x/twitter**:
-      {{< x user="DevOpsKathmandu" id="1894943451646697957" >}}
+   - **twitter**:
+      {{< twitter user="DevOpsKathmandu" id="1894943451646697957" >}}
 
    - **Github**: https://github.com/devops-Kathmandu/connect to help us improve this page

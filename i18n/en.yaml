@@ -2,10 +2,10 @@ countdown.days: days
 countdown.hours: hrs
 countdown.minutes: mins
 countdown.seconds: secs
-cta_banner.message: 🚀🚀🚀  Register for free event !!
-cta_button.get_ticket: Register now!
+cta_banner.message: 📅 CFP Extended Till March 30 !
+# cta_button.get_ticket: Register now!
 cta_section.heading: Found event exciting?
-cta_section.subheading: Register today!
+# cta_section.subheading: Register today!
 cta_section.message: |
     Don't miss the chance to meet, share/learn with experts and make valuable
     contacts!
@@ -48,8 +48,8 @@ featured_speakers_section.action: All speakers at a glance
 featured_sessions_section.heading: Featured Sessions
 featured_sessions_section.read_more: read more
 featured_sessions_section.action: All Sessions
-sponsors_section.heading: Our Sponsors
-sponsors_section.subheading: A big thank you !! 🙇‍♂️ 
+sponsors_section.heading: ""
+sponsors_section.subheading: Our Sponsors
 event_highlights_section.number_of_speakers:
     one: '{{ . }} Speaker'
     other: '{{ . }} Speakers'

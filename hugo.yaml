@@ -71,7 +71,8 @@ languages:
         params:
             themes:
                 event:
-                    slogan: DevOps Kathmandu Connect 2025
+                    favicon: favicon.ico
+                    slogan: ""
                     description: |
                         A premier gathering of DevOps professionals, cloud innovators,
                         SRE practitioners, and tech enthusiasts! 🚀 🎉
@@ -86,24 +87,48 @@ languages:
                            🙌🏼 [Sponsors](./sponsors) to help us make this event grand 🎉
                         &nbsp;
                         \
-                           📢 [Call For Venue](./call-for-venue) if you want to help host the event 🤝
-                        &nbsp;
-                        \
                            💪 [Volunteering](./volunters) if you want to collaborate and contribute
                     directions: |
                        Islington College is hosting our event on Kumari Block.
                     # 👇 This field provides an introduction or overview about the event or organization.
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    # aboutUs: |
-                    #     More information about the event will be added soon. Stay tuned! 🎉
+                    aboutUs: |
+                        Welcome to **DevOps Kathmandu Connect 2025**, the premier gathering for DevOps professionals, cloud innovators, SRE practitioners, and tech enthusiasts in Nepal.  
+                        **Date:** April 19, 2025  
+                        **Location:** Kathmandu  
+                        
+                        ## What to Expect
+                        - **In-Depth Sessions:** Explore topics such as DevOps best practices, CI/CD, Kubernetes, GitOps, and Infrastructure as Code (IaC).  
+                        - **Keynote Speeches:** Gain insights from industry leaders who are revolutionizing software delivery and reliability.  
+                        - **Hands-On Workshops:** Enhance your skills in automation, observability, and cloud-native development through practical sessions.  
+                        - **Networking Opportunities:** Connect with a diverse community ranging from aspiring technologists to experienced engineers.  
+                        
+                        ## Why Attend?
+                        DevOps Kathmandu Connect 2025 is designed to provide actionable insights into the latest technologies and frameworks driving innovation in DevOps, Cloud, and SRE. Discover tools and strategies that empower teams to build scalable, secure, and high-performance systems.
+                        
+                        ## Call for Speakers
+                        We are inviting tech experts, thought leaders, and innovators to share their knowledge on topics like CI/CD, GitOps, Kubernetes, Infrastructure as Code (IaC), observability, and more.  
+                        
+                        Whether you're interested in delivering engaging talks, practical workshops, or sharing real-world case studies, we welcome your proposals.  
+                        
+                        > **Note:** While we value contributions from global experts, we are currently unable to sponsor travel expenses due to budget limitations.  
+                        
+                        👉 [Submit your proposal here.](https://sessionize.com/devops-kathmandu-connect-2025/)
+                        
+                        ## Stay Connected
+                        - **Website:** [DevOps Kathmandu Meetup](https://www.meetup.com/devops-kathmandu/)  
+                        - **Discord:** [Join our community](https://discord.gg/geEs7mwgTk)  
+                        
+                        Mark your calendars and join us in redefining the future of software engineering at **DevOps Kathmandu Connect 2025**!
 
 sectionPagesMenu: main
 params:
     themes:
+        favicon: favicon.ico
         event:
             # 👇 Set the name of your event.
-            title: DevOps Kathmandu Connect
+            title: DevOps Kathmandu Connect 2025
             # 👇 Fetch the ID of your event's API endpoint from
             # 👇 https://sessionize.com/app/organizer/schedule/api/0
             # 👇 and enter it here.
@@ -162,8 +187,8 @@ params:
                 - '883226'
                 - '884705'
             colors:
-                primaryLighter: '#5CB1E8'
-                primary: '#0d81be'
+                primaryLighter: '#7182C7'
+                primary: '#7182C7'
                 primaryDarker: '#143e8b'
                 track: '#15B8CA'
                 secondary: '#f7f8fa'
