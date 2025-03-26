@@ -6,9 +6,7 @@ markup:
     renderer:
       unsafe: true
 
-defaultContentLanguage: en
 languages:
-    _merge: deep
     en:
         languageName: English
         disabled: false

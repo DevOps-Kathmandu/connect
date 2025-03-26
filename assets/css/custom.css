@@ -13,5 +13,14 @@
     padding-bottom: 0px !important;
 }
 .page-header{
-    height: 60px;
+    height: 58px;
+    background-color: #f8f9fcf7 !important;
+}
+
+.page-header__title-link {
+    font-size: 0.8rem !important;
+}
+
+.button--outlined {
+    padding: 0.8rem 1.75rem !important;
 }
