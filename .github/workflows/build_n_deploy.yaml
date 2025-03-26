@@ -56,6 +56,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: copy assets manually
+        run: cp assets/images/og-image.png public/images/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
