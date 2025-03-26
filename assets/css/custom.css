@@ -25,10 +25,14 @@
     font-size: 0.8rem !important;
 }
 
-.button--outlined {
-    padding: 0.8rem 1.75rem !important;
+/* .button--outlined { */
+/*     padding: 0.8rem 1.75rem !important; */
+/* } */
 
 .sponsor-card {
     border: none !important;
+}
 
+.page-header__navigation {
+    gap: 1.5rem !important;
 }

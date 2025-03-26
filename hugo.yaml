@@ -122,6 +122,11 @@ languages:
 
 sectionPagesMenu: main
 params:
+    #og-section
+    description: A premier gathering for DevOps professionals, cloud innovators, SRE practitioners, and tech enthusiasts in Kathmandu on 19th April, 2025.
+    images:
+      - ./images/og-image.png
+
     themes:
         favicon: favicon.ico
         event:
@@ -133,7 +138,7 @@ params:
             sessionizeId: djztqt38
 
             shortTitle:
-            startDate: 2025-04-19
+            startDate: 2025-04-18
             endDate: 2025-04-19
             location: Kathmandu, Nepal
             address:
@@ -141,13 +146,14 @@ params:
                  - Islington College
                  - धोबीधारा मार्ग, Kathmandu 44600
                  - Nepal
+
             map:
                 embeddableMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5242.33179985782!2d85.3230088042467!3d27.708425546304806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19088cf744ff%3A0x5d442b976acd7fcc!2sKumari%20Block%20-%20Islington%20College!5e0!3m2!1sen!2sus!4v1742677603671!5m2!1sen!2sus
                 viewLargerMapUrl: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5242.33179985782!2d85.3230088042467!3d27.708425546304806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19088cf744ff%3A0x5d442b976acd7fcc!2sKumari%20Block%20-%20Islington%20College!5e0!3m2!1sen!2sus!4v1742677603671!5m2!1sen!2sus
 
             callToAction:
               other:
-                 url: https://www.meetup.com/devops-kathmandu/events/
+                 url: https://www.linkedin.com/sharing/share-offsite/?url=https://connect.devopskathmandu.com
                  enableBanner: true
             socialLinks:
                 discordUrl:  https://discord.gg/46b2CJmY6c
@@ -191,6 +197,7 @@ params:
                 primaryLighter: '#7182C7'
                 primary: '#7182C7'
                 primaryDarker: '#143e8b'
+                primaryDarkest: '#393c42'
                 track: '#15B8CA'
                 secondary: '#f7f8fa'
                 secondaryDarker: '#637381'
