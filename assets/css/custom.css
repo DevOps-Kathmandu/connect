@@ -2,13 +2,17 @@
     margin-bottom: 1rem !important;
 }
 
+.heading--highlighted {
+    font-size: 2.125rem !important;
+}
+
 .event-highlights-section__description {
     display: block !important;
     flex-basis: 10.375rem !important;
     flex-grow: 1;
 }
 
-.section--short{
+#pageHeaderContent{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
@@ -21,6 +25,14 @@
     font-size: 0.8rem !important;
 }
 
-.button--outlined {
-    padding: 0.8rem 1.75rem !important;
+/* .button--outlined { */
+/*     padding: 0.8rem 1.75rem !important; */
+/* } */
+
+.sponsor-card {
+    border: none !important;
+}
+
+.page-header__navigation {
+    gap: 1.5rem !important;
 }
