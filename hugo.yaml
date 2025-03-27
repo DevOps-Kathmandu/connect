@@ -172,7 +172,7 @@ params:
 
             callToAction:
               other:
-                 url: https://www.linkedin.com/sharing/share-offsite/?url=https://connect.devopskathmandu.com
+                 url: https://forms.gle/3y8bm81W1rZ4iy7e6
                  enableBanner: true
             socialLinks:
                 discordUrl: https://discord.gg/46b2CJmY6c
