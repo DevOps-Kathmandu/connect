@@ -186,24 +186,45 @@ params:
             sponsors:
                 - logo: images/learn-k8s.png
                   url: https://learnk8s.io/
-                  name: 'LearnK8s'
-                - logo: images/sponsor-you.svg
-                  url: ../contact
-                  name: 'Could be Your Team'
+                  name: LearnK8s
+                  type: Innovator
+
                 - logo: images/islington.png
                   url: https://islington.edu.np/
                   name: 'Islington College'
+                  type: Venue
+
+                - logo: images/kube-events.svg
+                  url: https://kube.events/
+                  name: 'Kube Events'
+                  type: Events
+
                 - logo: images/food.svg
                   url: https://food.sponsor.com/
-                  name: 'Food'
+                  name: 'Foodxyz'
+                  type: Food
+
+                - logo: images/sponsor-you.svg
+                  url: ../contact
+                  name: 'Could be Your Team'
+                  type: 'Snacks ??'
 
             partners:
+                - logo: images/kube-fm.svg
+                  url: https://kube.fm/
+                  name: KubeFM
+                  type: Media Partner
+
                 - logo: images/partner_a.svg
                   url: https://connect.devopskathmandu.com/sponsors
                   name: 'PartnerA'
+                  type: 'Community A'
+
                 - logo: images/partner_b.svg
                   url: https://connect.devopskathmandu.com/sponsors
                   name: 'PartnerB'
+                  type: 'Community B'
+
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
                 - '00000000-0000-0000-0000-000000000001'
@@ -224,3 +245,4 @@ params:
                 shadow: '#a6afc366'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
+

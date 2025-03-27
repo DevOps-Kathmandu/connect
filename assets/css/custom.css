@@ -36,3 +36,7 @@
 .page-header__navigation {
     gap: 1.5rem !important;
 }
+
+.our-sponsors__list-item {
+    margin-bottom: 0.5rem !important;
+}
