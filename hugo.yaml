@@ -199,15 +199,10 @@ params:
                   name: 'Kube Events'
                   type: Events
 
-                - logo: images/food.svg
-                  url: https://food.sponsor.com/
-                  name: 'Foodxyz'
-                  type: Food
-
                 - logo: images/sponsor-you.svg
-                  url: ../contact
-                  name: 'Could be Your Team'
-                  type: 'Snacks ??'
+                  url: https://connect.devopskathmandu.com/sponsors
+                  name: 'Refreshment'
+                  type: Refreshment
 
             partners:
                 - logo: images/kube-fm.svg
@@ -215,15 +210,10 @@ params:
                   name: KubeFM
                   type: Media Partner
 
-                - logo: images/partner_a.svg
+                - logo: images/sponsor-you.svg
                   url: https://connect.devopskathmandu.com/sponsors
-                  name: 'PartnerA'
+                  name: ''
                   type: 'Community A'
-
-                - logo: images/partner_b.svg
-                  url: https://connect.devopskathmandu.com/sponsors
-                  name: 'PartnerB'
-                  type: 'Community B'
 
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
