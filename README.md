@@ -32,6 +32,15 @@ cd themes && git clone https://github.com/DevOps-Kathmandu/hugo-theme-event.git 
 cd ..
 ```
 
+> Updating themes
+
+```
+# When theme updates are available
+cd themes/event
+git pull origin main
+cd ../..
+```
+
 - Run the development environment
 
 ```
