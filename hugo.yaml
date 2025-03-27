@@ -12,7 +12,7 @@ languages:
         disabled: false
         menus:
             main:
-                - identifier: about-event
+                - identifier: about
                   pageRef: /about
                   weight: 10
                 # - identifier: sessions
