@@ -79,6 +79,8 @@ languages:
                         &nbsp;
                         \
                         **Please Check Out**:
+                        &nbsp;
+                        \
                            🎤 [Call for Speakers](https://sessionize.com/devops-kathmandu-connect-2025/) to submit your interesting session(10m⚡️ to 30-45m awesome talk)
                         &nbsp;
                         \
@@ -173,7 +175,7 @@ params:
                  url: https://www.linkedin.com/sharing/share-offsite/?url=https://connect.devopskathmandu.com
                  enableBanner: true
             socialLinks:
-                discordUrl: Please check outhttps://discord.gg/46b2CJmY6c
+                discordUrl: https://discord.gg/46b2CJmY6c
                 xUrl: https://x.com/devopskathmandu
                 facebookUrl:
                 linkedinUrl: https://www.linkedin.com/company/devops-kathmandu/
