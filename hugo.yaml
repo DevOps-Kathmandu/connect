@@ -13,7 +13,7 @@ languages:
         menus:
             main:
                 - identifier: about-event
-                  pageRef: /about-event
+                  pageRef: /about
                   weight: 10
                 # - identifier: sessions
                 #   pageRef: /sessions
