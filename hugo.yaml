@@ -201,8 +201,8 @@ params:
 
                 - logo: images/kube-fm.svg
                   url: https://kube.fm/
-                  name: 'Media'
-                  type: Media Partner
+                  name: 'Broadcast'
+                  type: Broadcast
 
                 - logo: images/sponsor-you.svg
                   url: https://connect.devopskathmandu.com/sponsors
