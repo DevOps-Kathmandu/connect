@@ -199,17 +199,16 @@ params:
                   name: 'Kube Events'
                   type: Events
 
+                - logo: images/kube-fm.svg
+                  url: https://kube.fm/
+                  name: 'Media'
+                  type: Media Partner
+
                 - logo: images/sponsor-you.svg
                   url: https://connect.devopskathmandu.com/sponsors
                   name: 'Refreshment'
                   type: Refreshment
-
             partners:
-                - logo: images/kube-fm.svg
-                  url: https://kube.fm/
-                  name: KubeFM
-                  type: Media Partner
-
                 - logo: images/sponsor-you.svg
                   url: https://connect.devopskathmandu.com/sponsors
                   name: ''
