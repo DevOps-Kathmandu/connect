@@ -11,7 +11,8 @@ type: page
 - April 19, 2025(Main Event)
 - April 20, 2025(Workshop)
 
-**Location:** Kathmandu  
+**Location:** Kathmandu
+
 
 ## What to Expect
 - **In-Depth Sessions:** Explore topics such as DevOps best practices, CI/CD, Kubernetes, GitOps, and Infrastructure as Code (IaC).  
