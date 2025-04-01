@@ -196,23 +196,28 @@ params:
 
                 - logo: images/CloudHero_Lockup-Black.png
                   url: https://cloudhero.io/
-                  name: 'Pipeline'
-                  type: Pipeline
+                  name: 'CloudHero'
+                  type: 'Pipeline'
             partners:
                 - logo: images/kube-events.svg
                   url: https://kube.events/
                   name: 'Events'
-                  type: Events
+                  type: 'KubeEvents'
 
                 - logo: images/kube-fm.svg
                   url: https://kube.fm/
                   name: 'Broadcast'
-                  type: Broadcast
+                  type: 'KubeFM'
 
-                - logo: images/sponsor-you.svg
-                  url: https://connect.devopskathmandu.com/sponsors
-                  name: ''
-                  type: 'Community A'
+                - logo: images/viewfinders.png
+                  url: https://viewfinders.com.np/
+                  name: 'Multimedia'
+                  type: 'viewfinders'
+
+                - logo: images/eventsmo_logo.png
+                  url: https://eventsmo.com/
+                  name: 'Event Tech'
+                  type: 'EventsMo'
 
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
