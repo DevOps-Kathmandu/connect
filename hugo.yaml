@@ -219,6 +219,10 @@ params:
                   name: 'Event Tech'
                   type: 'EventsMo'
 
+                - logo: images/slido.png
+                  url: https://www.slido.com/
+                  name: 'Interaction'
+                  type: 'Slido'
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
                 - '00000000-0000-0000-0000-000000000001'
@@ -239,4 +243,3 @@ params:
                 shadow: '#a6afc366'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
-
