@@ -221,7 +221,7 @@ params:
 
                 - logo: images/slido.png
                   url: https://www.slido.com/
-                  name: 'Interaction'
+                  name: 'Engagement'
                   type: 'Slido'
             organizers:
                 - '00000000-0000-0000-0000-000000000000'
