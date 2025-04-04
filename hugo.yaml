@@ -19,12 +19,12 @@ languages:
                 - identifier: about
                   pageRef: /about
                   weight: 10
-                # - identifier: sessions
-                #   pageRef: /sessions
-                #   weight: 20
-                # - identifier: speakers
-                #   pageRef: /speakers
-                #   weight: 30
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
                 # - identifier: location
                 #   pageRef: /location
                 #   weight: 40
@@ -33,7 +33,7 @@ languages:
                 #   weight: 50
                 - identifier: organizers
                   pageRef: /organizers
-                  weight: 100
+                  weight: 60
             footer:
                 - identifier: code_of_conduct
                   pageRef: /code-of-conduct
