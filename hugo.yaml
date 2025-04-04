@@ -1,6 +1,10 @@
 theme: event
 baseUrl: https://connect.devopskathmandu.com/
 
+module:
+  imports:
+    - path: github.com/hugo-mods/icons
+
 markup:
   goldmark:
     renderer:
@@ -31,12 +35,9 @@ languages:
                   pageRef: /code-of-conduct
                   weight: 100
             footer:
-                - identifier: imprint
-                  pageRef: /imprint
+                - identifier: organizers
+                  pageRef: /organizers
                   weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
-                  weight: 20
             secondary:
                 - identifier: about
                   pageRef: /about
@@ -58,14 +59,6 @@ languages:
                       description: |
                           Find out where the event will take place
                           ...details on the venue, directions, and nearby accommodations.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Read about the code of conduct for our event.
-                          ...the expectations for participant behavior and event policies.
-
         params:
             themes:
                 event:
@@ -138,6 +131,9 @@ languages:
                         - **Github:** [devops-Kathmandu/connect](https://github.com/devops-Kathmandu/connect) to help us improve this page
 
                         Save the date and be part of advancing DevOps excellence and engineering practices at DevOps Kathmandu Connect 2025!
+
+                        ## Organizers
+                        {{< organizers >}}
 
 sectionPagesMenu: main
 params:
@@ -224,10 +220,89 @@ params:
                   name: 'Engagement'
                   type: 'Slido'
             organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
+              - name: Raju Dawadi
+                tagline: A Learner in DevOps and SRE World
+                photo: https://avatars.githubusercontent.com/u/4961484?v=4
+                profiles:
+                  linkedin: dwdraju
+                  github: dwdraju
+                  twitter: dwdraju
+
+              - name: Devi Bhattarai
+                tagline: Holistic & Savvy! 👩‍💻🚀
+                photo: https://avatars.githubusercontent.com/u/76749963?v=4
+                profiles:
+                  github: devibhattaraii
+                  linkedin: devibhattaraii
+                  twitter: devibhattaraii
+              - name: Sakar Dotel
+                tagline: Computer Engineer
+                photo: https://avatars.githubusercontent.com/u/31959081?v=4
+                profiles:
+                  linkedin: sakardotel
+                  github: sakardotel
+                  twitter: SakarDotel
+              - name: Rishikesh Gautam
+                tagline:
+                photo: https://avatars.githubusercontent.com/u/50162543?v=4
+                profiles:
+                  github: rishicares
+                  linkedin:
+                  twitter: rishikeshshares
+              - name: Aju Tamang
+                tagline: https://csaju.com/about/
+                photo: https://avatars.githubusercontent.com/u/29862610?v=4
+                profiles:
+                  linkedin: aju-tamang
+                  github: ajutamangdev
+                  twitter: _ajutamang_
+              - name: Tara Gurung
+                tagline: Co-Founder | DevOps Engineer @Getdataforme
+                photo: https://avatars.githubusercontent.com/u/4478831?v=4
+                profiles:
+                  linkedin: taragurung
+                  github: taragurung
+              - name: Shubham Pokhrel
+                tagline:
+                photo:  https://avatars.githubusercontent.com/u/115483662?v=4
+                profiles:
+                  github: shubham-pokhrel
+                  linkedin: shubham-pokhrel
+              - name:  Upendra Prasad Neupane
+                tagline: AWS Community Builder | Founder Regional AWS CC Captain | Computer Engineer
+                photo: https://avatars.githubusercontent.com/u/171818779?v=4
+                profiles:
+                  github: upenpn
+                  linkedin:  upendrapn
+                  twitter:
+              - name: Manish Khadka
+                tagline:  SRE| DevOps | MLOps | DevSecOps
+                photo: https://media.licdn.com/dms/image/v2/D4D03AQE90fVmB_0VHQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683510777259?e=1749081600&v=beta&t=lAbKMC6nfG0jogk_C8ujUOqB2sy9GjxHemUhd-fBCL8
+                profiles:
+                  github:    pen-pal
+                  linkedin:  manishkhadka
+                  twitter:
+              - name: Yadav Lamichhane
+                tagline: SRE @cloudfactory
+                photo: https://avatars.githubusercontent.com/u/31333363?v=4
+                profiles:
+                  github: omegazyadav
+                  twitter: omegazyadav
+              - name: Milan Thapa
+                tagline: https://thapakazi.com
+                photo: https://avatars.githubusercontent.com/u/1695906?v=4
+                profiles:
+                  github: thapakazi
+                  linkedin: thapakazi
+                  twitter: thapakazi_
+              # add missing ones
+              - name:
+                tagline: all the supporting hands
+                photo: https://i.imgur.com/TfVmrD5.jpeg
+                profiles:
+                   github:
+                   linkedin:
+                   twitter:
             featuredSessions:
                 - '883226'
                 - '884705'
