@@ -246,11 +246,11 @@ params:
                   github: sakardotel
                   twitter: SakarDotel
               - name: Rishikesh Gautam
-                tagline:
+                tagline: AWS Community Builder
                 photo: https://avatars.githubusercontent.com/u/50162543?v=4
                 profiles:
                   github: rishicares
-                  linkedin:
+                  linkedin: rishikeshgautam
                   twitter: rishikeshshares
               - name: Aju Tamang
                 tagline: AWS Community Builder
@@ -266,11 +266,12 @@ params:
                   linkedin: taragurung
                   github: taragurung
               - name: Shubham Pokhrel
-                tagline:
+                tagline: Regional AWS Cloud Club Captain | Beta MLSA
                 photo:  https://avatars.githubusercontent.com/u/115483662?v=4
                 profiles:
                   github: shubham-pokhrel
                   linkedin: shubham-pokhrel
+                  twitter: Shubham_ofcl
               - name:  Upendra Prasad Neupane
                 tagline: Founder Regional AWS CC Captain
                 photo: https://avatars.githubusercontent.com/u/171818779?v=4
