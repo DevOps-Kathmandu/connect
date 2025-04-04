@@ -1,0 +1,30 @@
+<!-- required to render the icons -->
+{{ partial "icon-data" . }}
+
+<div class="organizers-grid">
+  {{- range .Site.Params.themes.event.organizers -}}
+  <div class="organizer-card">
+    <img src="{{ .photo }}" alt="{{ .name }}" class="organizer-photo">
+    <h3 class="organizer-name">{{ .name | upper }}</h3>
+    <p class="tagline">{{ .tagline }}</p>
+    <div class="social-links-org">
+      {{- if .profiles.linkedin -}}
+      <a href="https://linkedin.com/in/{{ .profiles.linkedin }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "linkedin" }}
+      </a>
+      {{- end -}}
+      {{- if .profiles.twitter -}}
+      <a href="https://x.com/{{ .profiles.twitter }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "twitter" }}
+      </a>
+      {{- end -}}
+      {{- if .profiles.github -}}
+      <a href="https://github.com/{{ .profiles.github }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "github" }}
+      </a>
+      {{- end -}}
+    </div>
+  </div>
+  {{- end -}}
+</div>
+
