@@ -224,7 +224,7 @@ params:
                   type: 'Engagement'
             organizers:
               - name: Raju Dawadi
-                tagline: A Learner in DevOps and SRE World
+                tagline: DevOps and SRE at ShowSeeker
                 photo: https://avatars.githubusercontent.com/u/4961484?v=4
                 profiles:
                   linkedin: dwdraju
@@ -232,14 +232,14 @@ params:
                   twitter: dwdraju
 
               - name: Devi Bhattarai
-                tagline: Holistic & Savvy! 👩‍💻🚀
+                tagline: Engineering Lead at Stealth Startup
                 photo: https://avatars.githubusercontent.com/u/76749963?v=4
                 profiles:
                   github: devibhattaraii
                   linkedin: devibhattaraii
                   twitter: devibhattaraii
               - name: Sakar Dotel
-                tagline: Computer Engineer
+                tagline: DevOps Engineer at ShowSeeker
                 photo: https://avatars.githubusercontent.com/u/31959081?v=4
                 profiles:
                   linkedin: sakardotel
@@ -253,7 +253,7 @@ params:
                   linkedin:
                   twitter: rishikeshshares
               - name: Aju Tamang
-                tagline: https://csaju.com/about/
+                tagline: AWS Community Builder
                 photo: https://avatars.githubusercontent.com/u/29862610?v=4
                 profiles:
                   linkedin: aju-tamang
@@ -272,7 +272,7 @@ params:
                   github: shubham-pokhrel
                   linkedin: shubham-pokhrel
               - name:  Upendra Prasad Neupane
-                tagline: AWS Community Builder | Founder Regional AWS CC Captain | Computer Engineer
+                tagline: Founder Regional AWS CC Captain
                 photo: https://avatars.githubusercontent.com/u/171818779?v=4
                 profiles:
                   github: upenpn
