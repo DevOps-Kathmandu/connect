@@ -1,6 +1,10 @@
 theme: event
 baseUrl: https://connect.devopskathmandu.com/
 
+services:
+  googleAnalytics:
+    ID: G-3KTRWP46FY
+
 module:
   imports:
     - path: github.com/hugo-mods/icons
