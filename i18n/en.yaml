@@ -2,8 +2,8 @@ countdown.days: days
 countdown.hours: hrs
 countdown.minutes: mins
 countdown.seconds: secs
-cta_banner.message: 📅 CFP Extended Till March 30 | 📍 RSVP Opens on April 1st
-cta_button.get_ticket: 📣 Spread the Word
+cta_banner.message: 📅 Hold your excitement! RSVP opens April 6th!! 📅
+cta_button.get_ticket: 📣 Join RSVP Waitlist
 cta_section.heading: Found event exciting?
 # cta_section.subheading: Register today!
 cta_section.message: |
@@ -50,7 +50,7 @@ featured_sessions_section.read_more: read more
 featured_sessions_section.action: All Sessions
 sponsors_section.heading: "Sponsors"
 sponsors_section.subheading: ""
-partners_section.heading: "Community Partners"
+partners_section.heading: "Partners"
 partners_section.subheading: ""
 event_highlights_section.number_of_speakers:
     one: '{{ . }} Speaker'

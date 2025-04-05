@@ -1,6 +1,10 @@
 theme: event
 baseUrl: https://connect.devopskathmandu.com/
 
+module:
+  imports:
+    - path: github.com/hugo-mods/icons
+
 markup:
   goldmark:
     renderer:
@@ -15,27 +19,27 @@ languages:
                 - identifier: about
                   pageRef: /about
                   weight: 10
-                # - identifier: sessions
-                #   pageRef: /sessions
-                #   weight: 20
-                # - identifier: speakers
-                #   pageRef: /speakers
-                #   weight: 30
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
                 # - identifier: location
                 #   pageRef: /location
                 #   weight: 40
                 # - identifier: sponsors
                 #   pageRef: /sponsors
                 #   weight: 50
+                - identifier: organizers
+                  pageRef: /organizers
+                  weight: 60
+            footer:
                 - identifier: code_of_conduct
                   pageRef: /code-of-conduct
-                  weight: 100
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
                   weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
+                - identifier: sponsors
+                  pageRef: /sponsors
                   weight: 20
             secondary:
                 - identifier: about
@@ -58,14 +62,6 @@ languages:
                       description: |
                           Find out where the event will take place
                           ...details on the venue, directions, and nearby accommodations.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Read about the code of conduct for our event.
-                          ...the expectations for participant behavior and event policies.
-
         params:
             themes:
                 event:
@@ -139,6 +135,9 @@ languages:
 
                         Save the date and be part of advancing DevOps excellence and engineering practices at DevOps Kathmandu Connect 2025!
 
+                        ## Organizers
+                        {{< organizers >}}
+
 sectionPagesMenu: main
 params:
     #og-section
@@ -172,7 +171,7 @@ params:
 
             callToAction:
               other:
-                 url: https://www.linkedin.com/sharing/share-offsite/?url=https://connect.devopskathmandu.com
+                 url: https://forms.gle/3y8bm81W1rZ4iy7e6
                  enableBanner: true
             socialLinks:
                 discordUrl: https://discord.gg/46b2CJmY6c
@@ -184,34 +183,128 @@ params:
                 titleBackground: ./images/outside.png
                 location: images/v.png
             sponsors:
-                - logo: images/learn-k8s.png
-                  url: https://learnk8s.io/
-                  name: 'LearnK8s'
-                - logo: images/sponsor-you.svg
-                  url: ../contact
-                  name: 'Could be Your Team'
                 - logo: images/islington.png
                   url: https://islington.edu.np/
                   name: 'Islington College'
-                - logo: images/food.svg
-                  url: https://food.sponsor.com/
-                  name: 'Food'
+                  type: Venue
 
+                - logo: images/learnk8s.png
+                  url: https://learnk8s.io/
+                  name: LearnK8s
+                  type: Innovator
+
+                - logo: images/CloudHero_Lockup-Black.png
+                  url: https://cloudhero.io/
+                  name: 'CloudHero'
+                  type: 'Pipeline'
             partners:
-                - logo: images/partner_a.svg
-                  url: https://connect.devopskathmandu.com/sponsors
-                  name: 'PartnerA'
-                - logo: images/partner_b.svg
-                  url: https://connect.devopskathmandu.com/sponsors
-                  name: 'PartnerB'
+                - logo: images/kube-events.svg
+                  url: https://kube.events/
+                  name: 'Events'
+                  type: 'Events'
+
+                - logo: images/kube-fm.svg
+                  url: https://kube.fm/
+                  name: 'Broadcast'
+                  type: 'Broadcast'
+
+                - logo: images/viewfinders.png
+                  url: https://viewfinders.com.np/
+                  name: 'Multimedia'
+                  type: 'Multimedia'
+
+                - logo: images/eventsmo_logo.png
+                  url: https://eventsmo.com/
+                  name: 'Event Tech'
+                  type: 'Event Tech'
+
+                - logo: images/slido.png
+                  url: https://www.slido.com/
+                  name: 'Engagement'
+                  type: 'Engagement'
             organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
+              - name: Raju Dawadi
+                tagline: DevOps and SRE at ShowSeeker
+                photo: https://avatars.githubusercontent.com/u/4961484?v=4
+                profiles:
+                  linkedin: dwdraju
+                  github: dwdraju
+                  twitter: dwdraju
+
+              - name: Devi Bhattarai
+                tagline: Engineering Lead at Stealth Startup
+                photo: https://avatars.githubusercontent.com/u/76749963?v=4
+                profiles:
+                  github: devibhattaraii
+                  linkedin: devibhattaraii
+                  twitter: devibhattaraii
+              - name: Sakar Dotel
+                tagline: DevOps Engineer at ShowSeeker
+                photo: https://avatars.githubusercontent.com/u/31959081?v=4
+                profiles:
+                  linkedin: sakardotel
+                  github: sakardotel
+                  twitter: SakarDotel
+              - name: Rishikesh Gautam
+                tagline: AWS Community Builder
+                photo: https://avatars.githubusercontent.com/u/50162543?v=4
+                profiles:
+                  github: rishicares
+                  linkedin: rishikeshgautam
+                  twitter: rishikeshshares
+              - name: Aju Tamang
+                tagline: AWS Community Builder
+                photo: https://avatars.githubusercontent.com/u/29862610?v=4
+                profiles:
+                  linkedin: aju-tamang
+                  github: ajutamangdev
+                  twitter: _ajutamang_
+              - name: Tara Gurung
+                tagline: DevOps Engineer @ JyabaTech | Delivering Data Engineering Solutions
+                photo: https://avatars.githubusercontent.com/u/4478831?v=4
+                profiles:
+                  linkedin: taragurung
+                  github: taragurung
+              - name: Shubham Pokhrel
+                tagline: Regional AWS Cloud Club Captain | Beta MLSA
+                photo:  https://avatars.githubusercontent.com/u/115483662?v=4
+                profiles:
+                  github: shubham-pokhrel
+                  linkedin: shubham-pokhrel
+                  twitter: Shubham_ofcl
+              - name:  Upendra Prasad Neupane
+                tagline: Founder Regional AWS CC Captain
+                photo: https://avatars.githubusercontent.com/u/171818779?v=4
+                profiles:
+                  github: upenpn
+                  linkedin:  upendrapn
+                  twitter:
+              - name: Manish Khadka
+                tagline:  SRE| DevOps | MLOps | DevSecOps
+                photo: https://media.licdn.com/dms/image/v2/D4D03AQE90fVmB_0VHQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683510777259?e=1749081600&v=beta&t=lAbKMC6nfG0jogk_C8ujUOqB2sy9GjxHemUhd-fBCL8
+                profiles:
+                  github:    pen-pal
+                  linkedin:  manishkhadka
+                  twitter:
+              - name: Milan Thapa
+                tagline: https://thapakazi.com
+                photo: https://avatars.githubusercontent.com/u/1695906?v=4
+                profiles:
+                  github: thapakazi
+                  linkedin: thapakazi
+                  twitter: thapakazi_
+              # add missing ones
+              - name:
+                tagline: all the supporting hands
+                photo: https://i.imgur.com/TfVmrD5.jpeg
+                profiles:
+                   github:
+                   linkedin:
+                   twitter:
             featuredSessions:
                 - '883226'
                 - '884705'
+                - '901326'
             colors:
                 primaryLighter: '#7182C7'
                 primary: '#7182C7'
