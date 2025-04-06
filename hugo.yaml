@@ -175,7 +175,7 @@ params:
 
             callToAction:
               other:
-                 url: https://forms.gle/3y8bm81W1rZ4iy7e6
+                 url: https://eventsmo.com/en/event/devops-kathmandu-connect-2025
                  enableBanner: true
             socialLinks:
                 discordUrl: https://discord.gg/46b2CJmY6c
@@ -307,8 +307,10 @@ params:
                    twitter:
             featuredSessions:
                 - '883226'
+                - '898029'
                 - '884705'
                 - '901326'
+                - '899446'
             colors:
                 primaryLighter: '#7182C7'
                 primary: '#7182C7'
