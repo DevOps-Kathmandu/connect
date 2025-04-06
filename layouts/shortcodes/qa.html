@@ -1,0 +1,208 @@
+<header class="section-container">
+    <div class="section">
+        <h1 class="heading heading--1 heading--centered">{{ T "qa_page.heading" | default "Questions & Answers" }}</h1>
+        <p class="section__intro">
+            {{ T "qa_page.intro" | default "Get involved in the conversation by asking questions and participating in our interactive sessions." }}
+        </p>
+    </div>
+</header>
+
+<div class="section-container">
+    <div class="section qa-section">
+        <div class="qa-grid">
+            <!-- Ask Questions Card -->
+            <section class="qa-card">
+                <div class="qa-card__header">
+                    <div class="qa-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="heading heading--highlighted">
+                        {{ T "qa_page.slido_heading" | default "Ask Questions" }}
+                    </h2>
+                </div>
+                
+                <div class="qa-card__content">
+                    <p class="qa-card__description">
+                        {{ T "qa_page.slido_description" | default "Use Slido to ask questions to speakers and participate in the discussion." }}
+                    </p>
+
+                    <div class="qa-card__action">
+                        {{- if .Site.Params.themes.event.qa.slidoUrl }}
+                            <a href="{{ .Site.Params.themes.event.qa.slidoUrl }}" class="button button--primary" target="_blank" rel="noopener noreferrer">
+                                <span class="button__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </span>
+                                {{ T "qa_page.slido_button" | default "Open Q&A" }}
+                            </a>
+                        {{- else }}
+                            <div class="qa-card__placeholder">
+                                {{- partial "graphics/no-content.html" }}
+                                <p>{{ T "qa_page.no_slido" | default "No Q&A link configured." }}</p>
+                            </div>
+                        {{- end }}
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tips Card -->
+            <section class="qa-card qa-card--tips">
+                <div class="qa-card__header">
+                    <div class="qa-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        </svg>
+                    </div>
+                    <h2 class="heading heading--highlighted">
+                        {{ T "qa_page.tips_heading" | default "Tips for Questions" }}
+                    </h2>
+                </div>
+                <div class="qa-card__content">
+                    <ul class="qa-card__tips-list">
+                        <li>{{ T "qa_page.tip_1" | default "Be specific and concise" }}</li>
+                        <li>{{ T "qa_page.tip_2" | default "Upvote questions you find interesting" }}</li>
+                        <li>{{ T "qa_page.tip_3" | default "Check if already asked" }}</li>
+                        <li>{{ T "qa_page.tip_4" | default "Provide brief context" }}</li>
+                        <li>{{ T "qa_page.tip_5" | default "Follow up if needed" }}</li>
+                        <li>{{ T "qa_page.tip_6" | default "Be respectful of others' time" }}</li>
+                    </ul>
+                </div>
+            </section> 
+        </div>
+    </div>
+</div>
+
+<style>
+    .qa-section {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0 2.5rem;
+    }
+
+    .qa-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .qa-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 1.75rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .qa-card__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.25rem;
+    }
+
+    .qa-card__icon {
+        color: var(--color-primary);
+        margin-right: 0.75rem;
+        flex-shrink: 0;
+    }
+
+    .qa-card__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qa-card__description {
+        margin-bottom: 1.25rem;
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+    .qa-card__action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+    }
+
+    .qa-card__placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .button__icon {
+        display: inline-flex;
+        margin-right: 0.5rem;
+    }
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section__intro {
+        max-width: 700px;
+        margin: 1rem auto 0;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .qa-card__tips-list {
+        padding-left: 1.25rem;
+        line-height: 1.6;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .qa-card__tips-list li {
+        margin-bottom: 0.75rem;
+    }
+
+    .heading--centered {
+        text-align: center;
+    }
+
+    /* Desktop layout - 2 equal columns */
+    @media (min-width: 768px) {
+        .qa-grid {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2.5rem;
+            row-gap: 2rem;
+        }
+        
+        .qa-card__tips-list {
+            columns: 2;
+            column-gap: 1.5rem;
+            padding-left: 1.5rem;
+        }
+        
+        .qa-card__tips-list li {
+            break-inside: avoid;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .qa-card {
+            padding: 1.5rem;
+        }
+        
+        .qa-section {
+            padding: 1rem 1rem 2rem;
+        }
+    }
+</style>
