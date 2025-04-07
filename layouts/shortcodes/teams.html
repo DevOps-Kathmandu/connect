@@ -1,11 +1,13 @@
 <!-- required to render the icons -->
 {{ partial "icon-data" . }}
 
-<div class="organizers-grid">
-  {{- range .Site.Params.themes.event.organizers -}}
-  <div class="organizer-card">
-    <img src="{{ .photo }}" alt="{{ .name }}" class="organizer-photo">
-    <h3 class="organizer-name">{{ .name | upper }}</h3>
+<div class="teams-grid">
+  {{- $teamType := .Get 0 -}} <!-- Get the first parameter (e.g., "volunteers" or "organizers") -->
+  {{- with index .Site.Data $teamType -}}
+  {{- range . -}}
+  <div class="team-member-card">
+    <img src="{{ .photo }}" alt="{{ .name }}" class="team-member-photo">
+    <h3 class="team-member-name">{{ .name | upper }}</h3>
     <p class="tagline">{{ .tagline }}</p>
     <div class="social-links-org">
       {{- if .profiles.linkedin -}}
@@ -26,5 +28,10 @@
     </div>
   </div>
   {{- end -}}
+  {{- else -}}
+  <p>
+    No data found for: {{ $teamType }}
+    Please check data/{{ $teamType }}.yaml
+  </p>
+  {{- end -}}
 </div>
-
