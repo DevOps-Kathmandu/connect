@@ -35,8 +35,8 @@ languages:
                 # - identifier: sponsors
                 #   pageRef: /sponsors
                 #   weight: 50
-                - identifier: organizers
-                  pageRef: /organizers
+                - identifier: teams
+                  pageRef: /teams
                   weight: 60
             footer:
                 - identifier: code_of_conduct
