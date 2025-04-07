@@ -2,7 +2,7 @@
 {{ partial "icon-data" . }}
 
 <div class="teams-grid">
-  {{- $teamType := .Get 0 -}} <!-- Get the first parameter (e.g., "volunteers" or "teams") -->
+  {{- $teamType := .Get 0 -}} <!-- Get the first parameter (e.g., "volunteers" or "organizers") -->
   {{- with index .Site.Data $teamType -}}
   {{- range . -}}
   <div class="team-member-card">
