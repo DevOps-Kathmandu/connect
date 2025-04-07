@@ -1,4 +1,4 @@
-.organizers-grid {
+.teams-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 3 columns on desktop */
   gap: 20px;
@@ -6,7 +6,7 @@
   background-color: white;
 }
 
-.organizer-card {
+.team-member-card {
   /* border: 1px dotted #add8e6; */
   /* border-radius: 8px; */
   padding: 15px;
@@ -14,14 +14,14 @@
   width: 250px;
 }
 
-.organizer-photo {
+.team-member-photo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.organizer-name{
+.team-member-name{
   margin: 10px 0 !important;
 }
 
@@ -53,18 +53,18 @@
 
 /* Mobile-friendly adjustments */
 @media (max-width: 768px) {
-  .organizers-grid {
+  .teams-grid {
     grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
     /* gap: 20px; */
     padding: 15px;
   }
 
-  .organizer-photo {
+  .team-member-photo {
     width: 120px; /* Smaller photo on smaller screens */
     height: 120px;
   }
 
-  .organizer-card {
+  .team-member-card {
     padding: 2rem;
     width: auto;
   }
@@ -81,18 +81,18 @@
 }
 
 @media (max-width: 480px) {
-  .organizers-grid {
+  .teams-grid {
     grid-template-columns: 1fr; /* 1 column on mobile */
     /* gap: 20px; */
     padding: 10px;
   }
 
-  .organizer-photo {
+  .team-member-photo {
     width: 100px;
     height: 100px;
   }
 
-  .organizer-card {
+  .team-member-card {
     padding: 2rem;
     width: auto;
   }

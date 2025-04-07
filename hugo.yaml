@@ -139,8 +139,11 @@ languages:
 
                         Save the date and be part of advancing DevOps excellence and engineering practices at DevOps Kathmandu Connect 2025!
 
-                        ## Organizers
-                        {{< organizers >}}
+                        ### Organizers 🤹
+                        {{< teams "organizers" >}}
+
+                        ### Volunteers 🏅
+                        {{< teams "volunteers" >}}
 
 sectionPagesMenu: main
 params:
@@ -226,85 +229,6 @@ params:
                   url: https://www.slido.com/
                   name: 'Engagement'
                   type: 'Engagement'
-            organizers:
-              - name: Raju Dawadi
-                tagline: DevOps and SRE at ShowSeeker
-                photo: https://avatars.githubusercontent.com/u/4961484?v=4
-                profiles:
-                  linkedin: dwdraju
-                  github: dwdraju
-                  twitter: dwdraju
-
-              - name: Devi Bhattarai
-                tagline: Engineering Lead at Stealth Startup
-                photo: https://avatars.githubusercontent.com/u/76749963?v=4
-                profiles:
-                  github: devibhattaraii
-                  linkedin: devibhattaraii
-                  twitter: devibhattaraii
-              - name: Sakar Dotel
-                tagline: DevOps Engineer at ShowSeeker
-                photo: https://avatars.githubusercontent.com/u/31959081?v=4
-                profiles:
-                  linkedin: sakardotel
-                  github: sakardotel
-                  twitter: SakarDotel
-              - name: Rishikesh Gautam
-                tagline: AWS Community Builder
-                photo: https://avatars.githubusercontent.com/u/50162543?v=4
-                profiles:
-                  github: rishicares
-                  linkedin: rishikeshgautam
-                  twitter: rishikeshshares
-              - name: Aju Tamang
-                tagline: AWS Community Builder
-                photo: https://avatars.githubusercontent.com/u/167596183?v=4
-                profiles:
-                  linkedin: aju-tamang
-                  github: ajutamangdev
-                  twitter: _ajutamang_
-              - name: Tara Gurung
-                tagline: DevOps Engineer @ JyabaTech | Delivering Data Engineering Solutions
-                photo: https://avatars.githubusercontent.com/u/4478831?v=4
-                profiles:
-                  linkedin: taragurung
-                  github: taragurung
-              - name: Shubham Pokhrel
-                tagline: Regional AWS Cloud Club Captain | Beta MLSA
-                photo:  https://avatars.githubusercontent.com/u/115483662?v=4
-                profiles:
-                  github: shubham-pokhrel
-                  linkedin: shubham-pokhrel
-                  twitter: Shubham_ofcl
-              - name:  Upendra Prasad Neupane
-                tagline: Founder Regional AWS CC Captain
-                photo: https://avatars.githubusercontent.com/u/171818779?v=4
-                profiles:
-                  github: upenpn
-                  linkedin:  upendrapn
-                  twitter:
-              - name: Manish Khadka
-                tagline:  SRE| DevOps | MLOps | DevSecOps
-                photo: https://media.licdn.com/dms/image/v2/D4D03AQE90fVmB_0VHQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683510777259?e=1749081600&v=beta&t=lAbKMC6nfG0jogk_C8ujUOqB2sy9GjxHemUhd-fBCL8
-                profiles:
-                  github:    pen-pal
-                  linkedin:  manishkhadka
-                  twitter:
-              - name: Milan Thapa
-                tagline: https://thapakazi.com
-                photo: https://avatars.githubusercontent.com/u/1695906?v=4
-                profiles:
-                  github: thapakazi
-                  linkedin: thapakazi
-                  twitter: thapakazi_
-              # add missing ones
-              - name:
-                tagline: all the supporting hands
-                photo: https://i.imgur.com/TfVmrD5.jpeg
-                profiles:
-                   github:
-                   linkedin:
-                   twitter:
             featuredSessions:
                 - '883226'
                 - '898029'
