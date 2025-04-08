@@ -64,6 +64,8 @@ Open your browser and navigate to the URL displayed in the terminal(usually http
 
 - **hugo.yaml** - Main configuration file defining site parameters, menus, etc.
 - **i18n/** - Contains translation files for multi-language support
+- **data/volunteers.yaml** - to adjust volunteers metadata
+- **data/organizers.yaml** - to adjust organizers metadata
 
 ### Development Files
 

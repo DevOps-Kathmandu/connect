@@ -1,6 +1,14 @@
 theme: event
 baseUrl: https://connect.devopskathmandu.com/
 
+services:
+  googleAnalytics:
+    ID: G-3KTRWP46FY
+
+module:
+  imports:
+    - path: github.com/hugo-mods/icons
+
 markup:
   goldmark:
     renderer:
@@ -15,27 +23,27 @@ languages:
                 - identifier: about
                   pageRef: /about
                   weight: 10
-                # - identifier: sessions
-                #   pageRef: /sessions
-                #   weight: 20
-                # - identifier: speakers
-                #   pageRef: /speakers
-                #   weight: 30
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 20
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 30
                 # - identifier: location
                 #   pageRef: /location
                 #   weight: 40
                 # - identifier: sponsors
                 #   pageRef: /sponsors
                 #   weight: 50
+                - identifier: teams
+                  pageRef: /teams
+                  weight: 60
+            footer:
                 - identifier: code_of_conduct
                   pageRef: /code-of-conduct
-                  weight: 100
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
                   weight: 10
-                - identifier: privacy
-                  pageRef: /privacy-policy
+                - identifier: sponsors
+                  pageRef: /sponsors
                   weight: 20
             secondary:
                 - identifier: about
@@ -58,14 +66,6 @@ languages:
                       description: |
                           Find out where the event will take place
                           ...details on the venue, directions, and nearby accommodations.
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
-                  weight: 60
-                  params:
-                      description: |
-                          Read about the code of conduct for our event.
-                          ...the expectations for participant behavior and event policies.
-
         params:
             themes:
                 event:
@@ -139,6 +139,12 @@ languages:
 
                         Save the date and be part of advancing DevOps excellence and engineering practices at DevOps Kathmandu Connect 2025!
 
+                        ### Organizers 🤹
+                        {{< teams "organizers" >}}
+
+                        ### Volunteers 🏅
+                        {{< teams "volunteers" >}}
+
 sectionPagesMenu: main
 params:
     #og-section
@@ -172,7 +178,7 @@ params:
 
             callToAction:
               other:
-                 url: https://forms.gle/3y8bm81W1rZ4iy7e6
+                 url: https://eventsmo.com/en/event/devops-kathmandu-connect-2025
                  enableBanner: true
             socialLinks:
                 discordUrl: https://discord.gg/46b2CJmY6c
@@ -202,31 +208,33 @@ params:
                 - logo: images/kube-events.svg
                   url: https://kube.events/
                   name: 'Events'
-                  type: 'KubeEvents'
+                  type: 'Events'
 
                 - logo: images/kube-fm.svg
                   url: https://kube.fm/
                   name: 'Broadcast'
-                  type: 'KubeFM'
+                  type: 'Broadcast'
 
                 - logo: images/viewfinders.png
                   url: https://viewfinders.com.np/
                   name: 'Multimedia'
-                  type: 'viewfinders'
+                  type: 'Multimedia'
 
                 - logo: images/eventsmo_logo.png
                   url: https://eventsmo.com/
                   name: 'Event Tech'
-                  type: 'EventsMo'
+                  type: 'Event Tech'
 
-            organizers:
-                - '00000000-0000-0000-0000-000000000000'
-                - '00000000-0000-0000-0000-000000000001'
-                - '00000000-0000-0000-0000-000000000004'
-                - '00000000-0000-0000-0000-000000000002'
+                - logo: images/slido.png
+                  url: https://www.slido.com/
+                  name: 'Engagement'
+                  type: 'Engagement'
             featuredSessions:
                 - '883226'
+                - '898029'
                 - '884705'
+                - '901326'
+                - '899446'
             colors:
                 primaryLighter: '#7182C7'
                 primary: '#7182C7'
@@ -239,4 +247,3 @@ params:
                 shadow: '#a6afc366'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
-

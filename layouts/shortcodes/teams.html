@@ -1,0 +1,37 @@
+<!-- required to render the icons -->
+{{ partial "icon-data" . }}
+
+<div class="teams-grid">
+  {{- $teamType := .Get 0 -}} <!-- Get the first parameter (e.g., "volunteers" or "organizers") -->
+  {{- with index .Site.Data $teamType -}}
+  {{- range . -}}
+  <div class="team-member-card">
+    <img src="{{ .photo }}" alt="{{ .name }}" class="team-member-photo">
+    <h3 class="team-member-name">{{ .name | upper }}</h3>
+    <p class="tagline">{{ .tagline }}</p>
+    <div class="social-links-org">
+      {{- if .profiles.linkedin -}}
+      <a href="https://linkedin.com/in/{{ .profiles.linkedin }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "linkedin" }}
+      </a>
+      {{- end -}}
+      {{- if .profiles.twitter -}}
+      <a href="https://x.com/{{ .profiles.twitter }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "twitter" }}
+      </a>
+      {{- end -}}
+      {{- if .profiles.github -}}
+      <a href="https://github.com/{{ .profiles.github }}" target="_blank" rel="noopener noreferrer">
+        {{ partial "icon" "github" }}
+      </a>
+      {{- end -}}
+    </div>
+  </div>
+  {{- end -}}
+  {{- else -}}
+  <p>
+    No data found for: {{ $teamType }}
+    Please check data/{{ $teamType }}.yaml
+  </p>
+  {{- end -}}
+</div>

@@ -31,6 +31,25 @@
 
 .sponsor-card {
     border: none !important;
+    height: 11rem !important;
+    width: auto !important;
+    padding: 5px !important;
+    justify-content: space-evenly !important;
+}
+
+@media(max-width: 768px){
+    .sponsor-card{
+        width: 14rem !important;
+    }
+}
+
+.sponsor-card__logo {
+    height: 100% !important;
+}
+
+.sponsor-card__type {
+    font-size: large !important;
+    line-height: 2 !important;
 }
 
 .page-header__navigation {

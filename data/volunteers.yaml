@@ -1,0 +1,22 @@
+# - name: Morphius
+#   tagline: The trainner
+#   photo: https://upload.wikimedia.org/wikipedia/en/a/ab/Morpheus.jpg
+#   profiles:
+#     twitter: morphius
+
+# - name: Neo
+#   tagline: The chosen one
+#   photo: https://upload.wikimedia.org/wikipedia/en/c/c6/NeoTheMatrix.jpg
+#   profiles:
+#     linkedin: neo.the.choosen.one
+
+ # add missing ones
+- name:
+  tagline: all the awesome people 
+  photo: https://i.imgur.com/TfVmrD5.jpeg
+  profiles:
+     github:
+     linkedin:
+     twitter:
+
+   

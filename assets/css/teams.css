@@ -1,0 +1,118 @@
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns on desktop */
+  gap: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+.team-member-card {
+  /* border: 1px dotted #add8e6; */
+  /* border-radius: 8px; */
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.team-member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member-name{
+  margin: 10px 0 !important;
+}
+
+.tagline {
+  color: #666;
+  margin: 8px 0;
+  font-size: medium !important;
+  line-height: 1.5rem !important;
+}
+
+.social-links-org a {
+  margin: 0 5px;
+  color: #0077b5;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-links-org .icon {
+  width: 24px;
+  height: 24px;
+  fill: #0077b5; /* LinkedIn blue */
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.social-links-org .icon:hover {
+  fill: #005983; /* Darker shade on hover */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+  .teams-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    /* gap: 20px; */
+    padding: 15px;
+  }
+
+  .team-member-photo {
+    width: 120px; /* Smaller photo on smaller screens */
+    height: 120px;
+  }
+
+  .team-member-card {
+    padding: 2rem;
+    width: auto;
+  }
+
+  .social-links-org a {
+    font-size: 20px; /* Slightly smaller icons */
+    text-decoration: none;
+  }
+
+  .social-links-org .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .teams-grid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    /* gap: 20px; */
+    padding: 10px;
+  }
+
+  .team-member-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team-member-card {
+    padding: 2rem;
+    width: auto;
+  }
+
+  h3 {
+    font-size: 1.1em; /* Adjust heading size */
+  }
+
+  .tagline {
+    font-size: medium !important;
+    line-height: 1.5rem !important;
+    margin: 8px 0;
+  }
+
+  .social-links-org a {
+    font-size: 18px;
+  }
+
+  .social-links-org .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
