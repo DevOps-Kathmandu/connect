@@ -249,3 +249,12 @@ params:
                 shadow: '#a6afc366'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
+            
+            # Q&A configuration
+            qa:
+                slidoUrl: "https://app.sli.do/event/your-event-code"
+
+            # Engage section configuration
+            engage:
+                photoUrl: "https://photos.google.com/shared/your-album-id" 
+                feedbackFormUrl: "https://forms.gle/your-form-id"
