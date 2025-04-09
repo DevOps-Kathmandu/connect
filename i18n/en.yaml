@@ -3,7 +3,7 @@ countdown.hours: hrs
 countdown.minutes: mins
 countdown.seconds: secs
 cta_banner.message: 🎉 Early Bird Tickets are LIVE! 🎟️
-cta_button.get_ticket: 📣 Early Bird Tickets Live!
+cta_button.get_ticket: 📣 Buy Early Bird Ticket!
 cta_section.heading: Found event exciting?
 # cta_section.subheading: Register today!
 cta_section.message: |
