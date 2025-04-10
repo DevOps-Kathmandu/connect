@@ -252,9 +252,9 @@ params:
             
             # Q&A configuration
             qa:
-                slidoUrl: "https://app.sli.do/event/your-event-code"
+                slidoUrl: "https://app.sli.do/event/6Z2wgQZ8K42jFjgxNQCHA3"
 
             # Engage section configuration
             engage:
-                photoUrl: "https://photos.google.com/shared/your-album-id" 
-                feedbackFormUrl: "https://forms.gle/your-form-id"
+                photoUrl: "https://photos.app.goo.gl/KrbHnnr4jTASt1Ht8"
+                feedbackFormUrl: "https://app.sli.do/event/6Z2wgQZ8K42jFjgxNQCHA3"
