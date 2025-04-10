@@ -1,3 +1,52 @@
+/*Tried to do some custom animation, end up with something simple*/
+.page-header__navigation .button {
+    position: relative;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    gap: .3rem !important;
+    padding: .65rem !important;
+    border: .0525rem solid var(--color-primary) !important;
+    border-radius: 8px;
+}
+
+/* Adding the dot animation */
+.page-header__navigation .button::after {
+    content: "";
+    position: absolute;
+    width: 10px; /* Dot size */
+    height: 10px; /* Dot size */
+    background-color: var(--color-primary); /* Dot color */
+    border-radius: 50%; /* Makes it a circle */
+    animation: moveDot 6s linear infinite;
+}
+
+/* Keyframes to move the dot around the button's border */
+@keyframes moveDot {
+    0% {
+        top: -5px; /* Start just outside the top-left corner */
+        left: -5px;
+    }
+    25% {
+        top: -5px; /* Move to just outside the top-right corner */
+        left: 103%; /* Move to the right edge */
+        transform: translateX(-102%); /* Adjust position to align correctly */
+    }
+    50% {
+        top: 112%; /* Move to just outside the bottom-right corner */
+        left: 100%;
+        transform: translateY(-100%) translateX(-100%);
+    }
+    75% {
+        top: 112%; /* Move to just outside the bottom-left corner */
+        left: -5px; /* Move to the left edge */
+        transform: translateY(-100%);
+    }
+    100% {
+        top: -5px; /* Complete the loop back to just outside the top-left corner */
+        left: -5px;
+    }
+}
+
 .heading--2 {
     margin-bottom: 1rem !important;
 }
@@ -58,4 +107,50 @@
 
 .our-sponsors__list-item {
     margin-bottom: 0.5rem !important;
+}
+
+
+.directions-card {
+    justify-content: flex-start !important;
+    padding: .5rem 0 !important;
+    max-height: 35vh;
+}
+
+@media (max-width: 576px) {
+    .directions-card {
+        gap: 0 !important;
+        max-height: 100%;
+    }
+    .directions-card__image {
+        max-height: 30vh;
+    }
+}
+
+.shaped-image__image {
+    height: calc(70% - (10% * .7612612613))  !important;
+
+}
+
+.location__address {
+    font-weight: 500 !important;
+}
+
+.event-highlights-section__description{
+    color: var(--color-secondary-darker);
+}
+
+.event-highlights-section__description > h2 {
+    color: var(--color-secondary-darker);
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+}
+
+.event-highlights-section__description > p {
+    color: var(--color-secondary-darker);
+    margin: 0.5rem 0;
+    line-height: 1.8rem;
+}
+
+.event-highlights-section__description > p > a {
+    text-decoration: none;
 }

@@ -70,29 +70,30 @@ languages:
             themes:
                 event:
                     favicon: favicon.ico
-                    slogan: ""
+                    slogan: "A premier gathering of DevOps professionals, cloud innovators, SRE practitioners and tech enthusiasts!!"
                     # qa:
                     #   slidoUrl: "#"
                     #   slidoQrCode: "/images/slido.png"
                     description: |
-                        A premier gathering of DevOps professionals, cloud innovators,
-                        SRE practitioners, and tech enthusiasts! 🚀 🎉
-                        Discover practical insights from DevOps, Cloud, and SRE experts while celebrating local successes and merging global best practices with local expertise.\
-                        \
-                        &nbsp;
-                        \
-                        **Please Check Out**:
-                        &nbsp;
-                        \
-                           🎫 [Get Your Ticket on EventsMo](https://eventsmo.com/en/event/devops-kathmandu-connect-2025): Early Bird now live!
-                        &nbsp;
-                        \
-                           🙌🏼 [Sponsors](./sponsors) to help us make this event grand 🎉
-                        &nbsp;
-                        \
-                           📅 [Join the LinkedIn Event](https://www.linkedin.com/events/https-connect-devopskathmandu-c7314663926003097600/) to stay in the loop and spread the word
+
+                        Discover practical insights from DevOps, Cloud, and SRE experts while celebrating local successes and merging global best practices with local expertise.  
+
+                        **Engage:**  
+
+                          🎫 [Get Your Ticket on EventsMo](https://eventsmo.com/en/event/devops-kathmandu-connect-2025)- Early Bird now live!  
+                          🙌🏼 [Sponsors](./sponsors) to help us make this event grand 🎉  
+                          📅 [Join the LinkedIn Event](https://www.linkedin.com/events/https-connect-devopskathmandu-c7314663926003097600/) to stay in the loop and spread the word  
+
+                          ---
+                          📍 Event is happening at [Kumari Block](https://maps.app.goo.gl/KafKCpfCfTUCLNk97) for details check 👉 [location](./location/)  
+                          ⁉️ For q&a, ask [question to speakers^](https://app.sli.do/event/6Z2wgQZ8K42jFjgxNQCHA3)  
+                          💬 Join us in [discord^](https://discord.gg/46b2CJmY6c)  
+                          📸 View event [photos^](https://photos.app.goo.gl/KrbHnnr4jTASt1Ht8)  
+
                     directions: |
-                       Islington College is hosting our event on Kumari Block.
+                       In the heart of Kathmandu, Islington College is hosting the event at **Kumari Block**  
+                       https://maps.app.goo.gl/KafKCpfCfTUCLNk97
+
                     # 👇 This field provides an introduction or overview about the event or organization.
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
@@ -190,7 +191,7 @@ params:
             images:
                 logo: images/head.png
                 titleBackground: ./images/outside.png
-                location: images/v.png
+                location: images/kumari.png
             sponsors:
                 - logo: images/islington.png
                   url: https://islington.edu.np/
