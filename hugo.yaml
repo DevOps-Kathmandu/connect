@@ -71,6 +71,9 @@ languages:
                 event:
                     favicon: favicon.ico
                     slogan: ""
+                    # qa:
+                    #   slidoUrl: "#"
+                    #   slidoQrCode: "/images/slido.png"
                     description: |
                         A premier gathering of DevOps professionals, cloud innovators,
                         SRE practitioners, and tech enthusiasts! 🚀 🎉
@@ -161,7 +164,6 @@ params:
             # 👇 https://sessionize.com/app/organizer/schedule/api/0
             # 👇 and enter it here.
             sessionizeId: djztqt38
-
             shortTitle:
             startDate: 2025-04-19
             endDate: 2025-04-19
@@ -247,3 +249,12 @@ params:
                 shadow: '#a6afc366'
             # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
+            
+            # Q&A configuration
+            qa:
+                slidoUrl: "https://app.sli.do/event/your-event-code"
+
+            # Engage section configuration
+            engage:
+                photoUrl: "https://photos.google.com/shared/your-album-id" 
+                feedbackFormUrl: "https://forms.gle/your-form-id"
