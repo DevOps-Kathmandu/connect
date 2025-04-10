@@ -12,7 +12,7 @@ cta_section.message: |
 header_featured_speakers: Featured Speakers
 speakers_page.heading: Speakers
 speakers_page.social_links: '{{ . }} social media links'
-sessions_page.heading: Schedule
+sessions_page.heading: Sessions
 sessions_page.day: Day {{ . }}
 sessions_page.heading_day_filter: Date
 sessions_page.heading_track_filter: Track
@@ -23,7 +23,7 @@ sessions_page.heading_no_sessions: No sessions scheduled yet
 sessions_page.heading_come_back_soon: Come back soon or follow us on social media
 menu.code_of_conduct: Code of Conduct
 menu.about: About
-menu.sessions: Schedule
+menu.sessions: Sessions
 menu.speakers: Speakers
 menu.location: Location
 menu.sponsors: Sponsors & Partners
