@@ -225,6 +225,11 @@ params:
                   url: https://www.slido.com/
                   name: 'Engagement'
                   type: 'Engagement'
+
+                - logo: images/gdg-kathmandu.png
+                  url: https://gdg.community.dev/gdg-kathmandu/
+                  name: 'Community'
+                  type: 'Community'
             featuredSessions:
                 - '883226'
                 - '898029'
