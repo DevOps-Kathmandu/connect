@@ -9,7 +9,7 @@ type: page
 
 **Date:**
 - April 19, 2025(Main Event)
-- April 20, 2025(Workshop)
+- April 18, 2025(Workshop)
 
 **Location:** Kathmandu
 

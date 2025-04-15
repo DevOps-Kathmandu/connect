@@ -95,7 +95,7 @@ languages:
 
                         **Date:**
                         - April 19, 2025(Main Event)
-                        - April 20, 2025(Workshop)
+                        - April 18, 2025(Workshop)
 
                         **Location:** Kathmandu
 
@@ -225,6 +225,11 @@ params:
                   url: https://www.slido.com/
                   name: 'Engagement'
                   type: 'Engagement'
+
+                - logo: images/gdg-kathmandu.png
+                  url: https://gdg.community.dev/gdg-kathmandu/
+                  name: 'Community'
+                  type: 'Community'
             featuredSessions:
                 - '883226'
                 - '898029'
