@@ -230,6 +230,11 @@ params:
                   url: https://gdg.community.dev/gdg-kathmandu/
                   name: 'Community'
                   type: 'Community'
+
+                - logo: images/AWS_Cloud_Club_Nepal.jpg
+                  url: https://www.meetup.com/aws-cloud-club-in-nepal/
+                  name: 'Community'
+                  type: 'Community'
             featuredSessions:
                 - '883226'
                 - '898029'
