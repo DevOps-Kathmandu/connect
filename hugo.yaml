@@ -231,7 +231,7 @@ params:
                   name: 'Community'
                   type: 'Community'
 
-                - logo: images/AWS_Cloud_Club_Nepal.jpg
+                - logo: images/AWS_Cloud_Club_Nepal.png
                   url: https://www.meetup.com/aws-cloud-club-in-nepal/
                   name: 'Community'
                   type: 'Community'
