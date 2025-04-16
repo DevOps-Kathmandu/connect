@@ -256,9 +256,9 @@ params:
             
             # Q&A configuration
             qa:
-                slidoUrl: "https://app.sli.do/event/6Z2wgQZ8K42jFjgxNQCHA3"
+                slidoUrl: "https://engage.devopskathmandu.com"
 
             # Engage section configuration
             engage:
-                photoUrl: "https://photos.app.goo.gl/KrbHnnr4jTASt1Ht8"
-                feedbackFormUrl: "https://app.sli.do/event/6Z2wgQZ8K42jFjgxNQCHA3"
+                photoUrl: "https://photos.devopskathmandu.com"
+                feedbackFormUrl: "https://engage.devopskathmandu.com"
