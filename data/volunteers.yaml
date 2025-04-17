@@ -11,9 +11,100 @@
 #     linkedin: neo.the.choosen.one
 
  # add missing ones
-- name:
-  tagline: all the awesome people 
+- name: Aditya Thakuri
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQGVUFznKBcLqA/profile-displayphoto-shrink_400_400/B56ZWBA6q0HQAs-/0/1741626256873?e=1750291200&v=beta&t=4qRnU6aGE5TwCyhOXyv6bTzNJ9Qu_7-fNcyACtQ7lWc
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Bibek Dhakal
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQEbOGReuO4FXQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723392440121?e=1750291200&v=beta&t=zhLU0-MIi5OoPYOlHwiU_NHQLwh98IfOp_VoSW2tcwc
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Diya Shakya
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D4E03AQFo0O91eKoWQw/profile-displayphoto-shrink_400_400/B4EZYk5.esHUAk-/0/1744375900580?e=1750291200&v=beta&t=0bVZnRsPnB3XC9-D2ZZz6c4H_vY9e5pNy8FV8CO3qCU
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Kabina Thapa
+  tagline: 
   photo: https://i.imgur.com/TfVmrD5.jpeg
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Devendra Khatri
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D4D03AQHw8kNIEWXoQQ/profile-displayphoto-shrink_400_400/B4DZWGEFddHYAg-/0/1741710973882?e=1750291200&v=beta&t=9jo9VmwUaazMokvBbd87vYQnD5OCXB1G9vIzL1jnfxs
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Yadav Lamichhane
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQEFIwzirwCFHA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1679139954584?e=1750291200&v=beta&t=JMkAIahrEtOeQajo6EdgMBuzvZkKhUKoVhN9tqYYyT0
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Ashutosh Vaidya
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D4E03AQF8siSDDjApvg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1676358699311?e=1750291200&v=beta&t=O_aJHTGkZ4dZZU0PDYI1WZplb7GMF3EcbCLUZb_N_dQ
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Badal Raut
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D4D03AQF65QaAseDG0g/profile-displayphoto-shrink_400_400/B4DZX59NgDHsAk-/0/1743655328291?e=1750291200&v=beta&t=FQl9W0CZAIhmkTRiP-eKy9_-1_02Epv3Lw3DUBOhWEQ
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Manjul Bhattarai
+  tagline: 
+  photo: https://i.imgur.com/TfVmrD5.jpeg
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Muna Tamang
+  tagline: 
+  photo: https://i.imgur.com/TfVmrD5.jpeg
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Gagan Pradhan
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D4D03AQFr-dBy2Wosqw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709526017931?e=1750291200&v=beta&t=NiHHJNOcpnCmAoY4nHMGyeSTDRdj49jSAhW3rlX_RP0
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Nikhil KC
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQECsFcZ7vUPeA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718224426866?e=1750291200&v=beta&t=vZ8Ki4x_2_gUSMTpPfmGnMBDcBJY7ab6itGX5P72hSg
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Balman Rawat
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/C4E03AQES6WtZsEFrYA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628561206062?e=1750291200&v=beta&t=NXCFzkpVJHi-n1EBRDa5jgY1YxZyp7fuPS6qm0o2Ixs
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Avinash Kundaliya
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQHtEr5pqCrPIg/profile-displayphoto-shrink_400_400/B56ZXODjscGsAs-/0/1742918796811?e=1750291200&v=beta&t=NjjSBzvlT980sAYUBteNDXpwgVUrRGWGZxy5NZtC2cg
   profiles:
      github:
      linkedin:
