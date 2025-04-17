@@ -11,6 +11,20 @@
 #     linkedin: neo.the.choosen.one
 
  # add missing ones
+- name: Balman Rawat
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/C4E03AQES6WtZsEFrYA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628561206062?e=1750291200&v=beta&t=NXCFzkpVJHi-n1EBRDa5jgY1YxZyp7fuPS6qm0o2Ixs
+  profiles:
+     github:
+     linkedin:
+     twitter:
+- name: Avinash Kundaliya
+  tagline: 
+  photo: https://media.licdn.com/dms/image/v2/D5603AQHtEr5pqCrPIg/profile-displayphoto-shrink_400_400/B56ZXODjscGsAs-/0/1742918796811?e=1750291200&v=beta&t=NjjSBzvlT980sAYUBteNDXpwgVUrRGWGZxy5NZtC2cg
+  profiles:
+     github:
+     linkedin:
+     twitter: 
 - name: Aditya Thakuri
   tagline: 
   photo: https://media.licdn.com/dms/image/v2/D5603AQGVUFznKBcLqA/profile-displayphoto-shrink_400_400/B56ZWBA6q0HQAs-/0/1741626256873?e=1750291200&v=beta&t=4qRnU6aGE5TwCyhOXyv6bTzNJ9Qu_7-fNcyACtQ7lWc
@@ -28,13 +42,6 @@
 - name: Diya Shakya
   tagline: 
   photo: https://media.licdn.com/dms/image/v2/D4E03AQFo0O91eKoWQw/profile-displayphoto-shrink_400_400/B4EZYk5.esHUAk-/0/1744375900580?e=1750291200&v=beta&t=0bVZnRsPnB3XC9-D2ZZz6c4H_vY9e5pNy8FV8CO3qCU
-  profiles:
-     github:
-     linkedin:
-     twitter:
-- name: Kabina Thapa
-  tagline: 
-  photo: https://i.imgur.com/TfVmrD5.jpeg
   profiles:
      github:
      linkedin:
@@ -67,20 +74,6 @@
      github:
      linkedin:
      twitter:
-- name: Manjul Bhattarai
-  tagline: 
-  photo: https://i.imgur.com/TfVmrD5.jpeg
-  profiles:
-     github:
-     linkedin:
-     twitter:
-- name: Muna Tamang
-  tagline: 
-  photo: https://i.imgur.com/TfVmrD5.jpeg
-  profiles:
-     github:
-     linkedin:
-     twitter:
 - name: Gagan Pradhan
   tagline: 
   photo: https://media.licdn.com/dms/image/v2/D4D03AQFr-dBy2Wosqw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709526017931?e=1750291200&v=beta&t=NiHHJNOcpnCmAoY4nHMGyeSTDRdj49jSAhW3rlX_RP0
@@ -95,19 +88,24 @@
      github:
      linkedin:
      twitter:
-- name: Balman Rawat
+- name: Manjul Bhattarai
   tagline: 
-  photo: https://media.licdn.com/dms/image/v2/C4E03AQES6WtZsEFrYA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628561206062?e=1750291200&v=beta&t=NXCFzkpVJHi-n1EBRDa5jgY1YxZyp7fuPS6qm0o2Ixs
+  photo: https://i.imgur.com/TfVmrD5.jpeg
   profiles:
      github:
      linkedin:
      twitter:
-- name: Avinash Kundaliya
+- name: Muna Tamang
   tagline: 
-  photo: https://media.licdn.com/dms/image/v2/D5603AQHtEr5pqCrPIg/profile-displayphoto-shrink_400_400/B56ZXODjscGsAs-/0/1742918796811?e=1750291200&v=beta&t=NjjSBzvlT980sAYUBteNDXpwgVUrRGWGZxy5NZtC2cg
+  photo: https://i.imgur.com/TfVmrD5.jpeg
   profiles:
      github:
      linkedin:
      twitter:
-
-   
+- name: Kabina Thapa
+  tagline: 
+  photo: https://i.imgur.com/TfVmrD5.jpeg
+  profiles:
+     github:
+     linkedin:
+     twitter:
