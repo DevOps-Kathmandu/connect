@@ -174,7 +174,7 @@ params:
 
             callToAction:
               other:
-                 url: https://eventsmo.com/en/event/devops-kathmandu-connect-2025
+                 url: https://www.meetup.com/devops-kathmandu/
                  enableBanner: true
             socialLinks:
                 discordUrl: https://discord.gg/46b2CJmY6c

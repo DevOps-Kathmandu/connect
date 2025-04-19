@@ -2,8 +2,8 @@ countdown.days: days
 countdown.hours: hrs
 countdown.minutes: mins
 countdown.seconds: secs
-cta_banner.message: 🎟️ Last Few Seats Remaining! 🎉
-cta_button.get_ticket: 📣 Almost Sold Out – Get Your Ticket!
+cta_banner.message: That’s a wrap for 2025! 🎉 Thanks for being part of the journey.
+cta_button.get_ticket: 📣 Follow us on Meetup for what’s next!
 cta_section.heading: Found event exciting?
 # cta_section.subheading: Register today!
 cta_section.message: |
