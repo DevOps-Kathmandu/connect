@@ -1,116 +1,53 @@
-<h1 class="speakersHeading">Key Speakers</h1>
-<div class="speakers-list"></div>
-
-<script>
-    const speakers = [
-        {
-            name: 'Bart Farrell',
-            topic1: "KeyNote: What's cooler than platform engineering?",
-            topic2: "Top Kubernetes trends"
-        },
-        {
-            name:'Aditya Singh ',
-            topic1: "UbuCon Asia: Journey From A Speaker To An Organizer"
-        },
-        {
-            name: "Sakar Dotel",
-            topic1: "Building Secure Microservices with Cilium’s Service Mesh"
-        },
-        {
-            name: "Baibhav Bista",
-            topic1:"Dark Forest Theory of the Web"
-        },
-        {
-            name:"Ramlyengar",
-            topic1:"Yav Shaving: Kathmandu Edition"
-        },
-        {
-            name:"TaraPrasad Gurung",
-            topic1:"From Community to DevOps and Data Engineering"
-        },{
-            name:"Prasuna Mudawari",
-            topic1:"Experinece as DevOps Engineer"
-        },{
-            name: " Amit Joshi & Sparsha Dotel",
-            topic1:"Dream It, Built It, Run It",
-            topic2: "Cultivating a DevOps Powerhouse"
-        },{
-            name:"Upendra Neupane",
-            topic1:"Climbing the Cloud Ladder - One Lambda at a Time"
-        },{
-            name: "Prason Pandey",
-            topic1:"When RCE is a Feature",
-            topic2:"Building a Remote Code Execution Sandbox"
-        },{
-            name:"Brijan Shrestha & Niran Maharjan",
-            topic1: "Supercharging Your Deployment Pipeline",
-            topic2:"Seamless Automation from Code to Kubernetes!"
-        },{
-            name:"Krishna Chalise",
-            topic1:"Cutting Your AWS Bill",
-            topic2: "Proven & Unconventional Cost-Saving Techniques"
-        },{
-            name:"Yasmine Bhattarai",
-            topic1:"From FireFighting to Forward-Thinking",
-            topic2:"The Real value of DevSecOps"
-        },{
-            name:"Devi Bhattrai",
-            topic1:"Closing Keynote"
-        }
-    ];
-
-    const container = document.querySelector('.speakers-list');
-
-    speakers.forEach((speaker) => {
-        const div = document.createElement('div');
-        div.className = 'speaker';
-        div.innerHTML = `
-            <ul class='lists'>
-                <strong>${speaker.name}</strong>
-                <li>${speaker.topic1}</li>
-                ${speaker.topic2 ? `<li>${speaker.topic2}</li>` : ""}
-            </ul>
-        `;
-        container.appendChild(div);
-    });
-</script>
+<h1 class="speakersHeading">Speakers 🗣️📝</h1>
+<div class="teams-grid">
+  {{ range .Site.Data.slides }}
+    <div class="speaker">
+      <ul class="lists">
+        <strong>{{ .name }}</strong>
+        {{ if .url }}
+          <a href="{{ .url }}" target="_blank">
+            <li>{{ .topic1 }}</li>
+          </a>
+        {{ else }}
+          <li>{{ .topic1 }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+</div>
 
 <style>
-    .speakersHeading {
-        font-size: 25px;
-        margin-top: -20px;
-        margin-bottom: 5px;
+  .speakersHeading {
+    font-size: 25px;
+  }
+    .speaker .lists strong {
+        font-size: 22px;
+    }
+    a{
+        font-size: 18px;
     }
 
-    .speakers-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around; 
-        gap: 5px; 
-        padding: 10px;
-        width: 100%;
-    }
+  .speaker {
+    background-color: rgb(183, 215, 247);
+    border-radius: 8px;
+    font-size: 19px;
+    padding: 10px;
+    margin: 1px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
 
-    .speaker {
-        background-color: rgb(255, 252, 252);
-        border-radius: 8px;
-        padding: 10px;
-        margin: 5px;
-        width: 250px; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-    }
+  .speaker:hover {
+    transform: scale(1.05);
+  }
 
-    .speaker:hover {
-        transform: scale(1.05);
-    }
+  .lists {
+    list-style-type: none;
+    padding: 0;
+  }
 
-    .lists {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .lists li {
-        margin-bottom: 5px;
-    }
+  .lists li {
+    margin-bottom: 5px;
+  }
 </style>
