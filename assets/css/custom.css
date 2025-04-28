@@ -155,3 +155,7 @@
     text-decoration: none;
 }
 
+.speaker .lists > a {
+  text-decoration: none !important;
+  color: var(--color-primary);
+}

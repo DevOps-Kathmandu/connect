@@ -6,7 +6,7 @@
         <strong>{{ .name }}</strong>
         {{ if .url }}
           <a href="{{ .url }}" target="_blank">
-            <li>{{ .topic1 }}</li>
+            <li>{{ .topic }}</li>
           </a>
         {{ else }}
           <li>{{ .topic1 }}</li>
@@ -22,16 +22,16 @@
   }
     .speaker .lists strong {
         font-size: 22px;
+        margin-bottom: 10px;
     }
     a{
         font-size: 18px;
     }
 
   .speaker {
-    background-color: rgb(183, 215, 247);
     border-radius: 8px;
     font-size: 19px;
-    padding: 10px;
+    padding: 20px;
     margin: 1px;
     width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,9 +45,11 @@
   .lists {
     list-style-type: none;
     padding: 0;
+    margin-block-start: unset;
+    padding-inline-start: unset;
   }
 
   .lists li {
-    margin-bottom: 5px;
+      margin-top: 10px;
   }
 </style>

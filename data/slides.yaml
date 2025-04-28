@@ -1,59 +1,56 @@
 
 # -name : John Doe
-# topic1: The Topic
+# topic: The Topic
 # url: Presentation link
 
 - name: Bart Farrell
-  topic1: "KeyNote: What's cooler than platform engineering? Top Kubernetes trends"
+  topic: "KeyNote: What's cooler than platform engineering? Top Kubernetes trends"
   url: "https://docs.google.com/presentation/d/1pKi8j6gMpZAFKuzwPMvMLbYgl-EMxGNb/edit?rtpof=true&sd=true"
 
 - name: Aditya Singh
-  topic1: "UbuCon Asia: Journey From A Speaker To An Organizer"
+  topic: "UbuCon Asia: Journey From A Speaker To An Organizer"
   url: "https://www.canva.com/design/DAGlA9F47q8/LklbqFBdwHZbGf5TgzxAlw/edit"
 
 - name: Sakar Dotel
-  topic1: "Building Secure Microservices with Cilium’s Service Mesh"
+  topic: "Building Secure Microservices with Cilium’s Service Mesh"
   url: "https://www.canva.com/design/DAGk6-m7TUk/SIcdiIfzEzSo9yF4qVYeFQ/edit"
 
 - name: Baibhav Bista
-  topic1: "Dark Forest Theory of the Web"
+  topic: "Dark Forest Theory of the Web"
   url: "https://www.canva.com/design/DAGk6-m7TUk/SIcdiIfzEzSo9yF4qVYeFQ/edit"
 
 - name: Ramlyengar
-  topic1: "Yak Shaving: Kathmandu Edition"
+  topic: "Yak Shaving: Kathmandu Edition"
   url: "https://docs.google.com/presentation/d/1-RfjPiMDwXb5P4hxGYaMb9ltN-HFL01i1blUlbtC4RI/edit?slide=id.p#slide=id.p"
 
 - name: TaraPrasad Gurung
-  topic1: "From Community to DevOps and Data Engineering"
+  topic: "From Community to DevOps and Data Engineering"
   url: "https://docs.google.com/presentation/d/16wLbxPjO903hBkh_Fc0tEKAeNseY6uv_/edit#slide=id.p1"
 
 - name: Prasuna Mudawari
-  topic1: "Experience as DevOps Engineer"
+  topic: "Experience as DevOps Engineer"
   url: "https://docs.google.com/presentation/d/1VKtxDtEuXheGds6ZoW0MFJ9QioFugnAT/edit?slide=id.p1#slide=id.p1"
 
 - name: Amit Joshi & Sparsha Dotel
-  topic1: "Dream It, Built It, Run It. Cultivating a DevOps Powerhouse"
+  topic: "Dream It, Built It, Run It. Cultivating a DevOps Powerhouse"
   url: "https://gamma.app/docs/Dream-It-Build-It-Run-It-di84psdsul3c7ds?mode=doc"
 
 - name: Upendra Neupane
-  topic1: "Climbing the Cloud Ladder - One Lambda at a Time"
+  topic: "Climbing the Cloud Ladder - One Lambda at a Time"
   url: "https://www.canva.com/design/DAGlAt_I1PI/005987I5HY2Ot5oBqzgbew/edit"
 
 - name: Prason Pandey
-  topic1: "When RCE is a Feature. Building a Remote Code Execution Sandbox"
+  topic: "When RCE is a Feature. Building a Remote Code Execution Sandbox"
   url: "https://pitchdeck.hypermatic.com/slides/m9gyfxa416666/?token=NHZXc0xAZkEyUEBXNmQ%3D"
 
 - name: Brijan Shrestha & Niran Maharjan
-  topic1: "Supercharging Your Deployment Pipeline. Seamless Automation from Code to Kubernetes!"
+  topic: "Supercharging Your Deployment Pipeline. Seamless Automation from Code to Kubernetes!"
   url: "https://gamma.app/docs/Supercharging-Your-Deployment-Pipeline-8x8qlmd6msyo3ca?mode=doc"
 
 - name: Krishna Chalise
-  topic1: "Cutting Your AWS Bill. Proven & Unconventional Cost-Saving Techniques"
+  topic: "Cutting Your AWS Bill. Proven & Unconventional Cost-Saving Techniques"
   url: "https://drive.google.com/file/d/12v0gDC0235Kg4pymT_ogQt9SCwtINiLf/view"
 
 - name: Yasmine Bhattarai
-  topic1: "From FireFighting to Forward-Thinking. The Real value of DevSecOps"
+  topic: "From FireFighting to Forward-Thinking. The Real value of DevSecOps"
   url: "https://docs.google.com/presentation/d/13sgLLCOBb9Sgxdc9WRvpbXodB_8z_p7wvLYejeNrJ_U/edit?slide=id.g34f2c290dee_2_75#slide=id.g34f2c290dee_2_75"
-
-- name: Devi Bhattrai
-  topic1: "Closing Keynote"
