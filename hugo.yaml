@@ -183,7 +183,7 @@ params:
                 linkedinUrl: https://www.linkedin.com/company/devops-kathmandu/
             images:
                 logo: images/head.png
-                titleBackground: ./images/outside.png
+                titleBackground: ./images/home.jpg
                 location: images/kumari.png
             sponsors:
                 - logo: images/islington.png

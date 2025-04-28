@@ -1,0 +1,53 @@
+<h1 class="speakersHeading">Speakers 🗣️📝</h1>
+<div class="teams-grid">
+  {{ range .Site.Data.slides }}
+    <div class="speaker">
+      <ul class="lists">
+        <strong>{{ .name }}</strong>
+        {{ if .url }}
+          <a href="{{ .url }}" target="_blank">
+            <li>{{ .topic1 }}</li>
+          </a>
+        {{ else }}
+          <li>{{ .topic1 }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+  .speakersHeading {
+    font-size: 25px;
+  }
+    .speaker .lists strong {
+        font-size: 22px;
+    }
+    a{
+        font-size: 18px;
+    }
+
+  .speaker {
+    background-color: rgb(183, 215, 247);
+    border-radius: 8px;
+    font-size: 19px;
+    padding: 10px;
+    margin: 1px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .speaker:hover {
+    transform: scale(1.05);
+  }
+
+  .lists {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .lists li {
+    margin-bottom: 5px;
+  }
+</style>
